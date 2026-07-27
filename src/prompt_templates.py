@@ -10,68 +10,28 @@ and tags are intentionally not fed to the LLM (team decision).
 
 from __future__ import annotations
 
+import json
+from pathlib import Path
 from typing import Any, Dict, List
 
 
 # ---------------------------------------------------------------------
-# Template library — migrated from Mudit's app.py prototype.
-# Each template is a fill-in-the-blank STRUCTURE plus a worked EXAMPLE,
-# used to steer the LLM's output shape without hand-writing full posts.
+# Template library — loaded from /templates/prompt_templates.json, the
+# same file app.py reads. Each template is a fill-in-the-blank STRUCTURE
+# plus a worked EXAMPLE, used to steer the LLM's output shape without
+# hand-writing full posts.
 # ---------------------------------------------------------------------
-TEMPLATE_LIBRARY: Dict[str, Dict[str, str]] = {
-    "Redefining Success": {
-        "structure": (
-            "Only [a small fraction] of [specific initiatives/individuals] "
-            "[achieve a desirable outcome].\n"
-            "But you don't have to follow the [typical definition of success].\n"
-            "Define what success means to you - something you'll look back on "
-            "in [time period] with pride.\n"
-            "Maybe it's\nOr perhaps it's\nOr even\n"
-            "No matter the path, the choice is yours to make."
-        ),
-        "example": (
-            "Only 10% of startups secure venture capital funding in their "
-            "first year.\nBut you don't have to follow the typical definition "
-            "of success.\nDefine what success means to you - something you'll "
-            "look back on in 5 years with pride.\nMaybe it's\nOr perhaps it's\n"
-            "Or even\nNo matter the path, the choice is yours to make."
-        ),
-    },
-    "Promises vs Reality": {
-        "structure": (
-            "What [Technology/Product] promised: [Grand promise].\n"
-            "What [Technology/Product] delivered: [Funny, mundane, or ironic reality]."
-        ),
-        "example": (
-            "What AI promised: End of manual work.\n"
-            "What AI delivered: A second layer of manual work to double-check the AI."
-        ),
-    },
-    "Turning Point in Life": {
-        "structure": (
-            "You hit [specific age or milestone], and suddenly [group of people "
-            "or community] starts [unexpected or stereotypical activity]."
-        ),
-        "example": (
-            "You turn 30 and the whole squad starts playing pickleball or "
-            "running half marathons."
-        ),
-    },
-    "Finding Motivation": {
-        "structure": (
-            "Finding motivation can be tough, especially when [specific "
-            "challenge] feels overwhelming.\nHere are a few things that keep me "
-            "energized and focused: [Practical habit or routine].\nWhat's your "
-            "favorite way to push through tough days?"
-        ),
-        "example": (
-            "Finding motivation can be tough, especially when you're a creator "
-            "battling a creative block.\nHere are a few things that helped me "
-            "get back on track:\n1. Taking a step back to recharge and reflect "
-            "- it's okay to pause."
-        ),
-    },
-}
+_TEMPLATE_LIBRARY_PATH = (
+    Path(__file__).resolve().parents[1] / "templates" / "prompt_templates.json"
+)
+
+
+def load_template_library() -> Dict[str, Dict[str, str]]:
+    with open(_TEMPLATE_LIBRARY_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+TEMPLATE_LIBRARY: Dict[str, Dict[str, str]] = load_template_library()
 
 
 def format_source_context(source_articles: List[Dict[str, Any]]) -> str:
@@ -145,9 +105,6 @@ present in the source material above."""
 # and hand us title + summary (+ some extra metadata we don't use,
 # e.g. keywords — deliberately not fed to the LLM, per team decision).
 # ---------------------------------------------------------------------
-import json
-from pathlib import Path
-
 _FILTERED_DOCS_PATH = (
     Path(__file__).resolve().parents[1]
     / "knowledge_base" / "filtered" / "filtered_documents.json"
