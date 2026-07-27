@@ -60,3 +60,6 @@ project_structure.md       # scope, requirements, WBS, risks (source of truth fo
 - One Kanban card at a time. Paste the card title + Must ID (e.g. "3.2 Context → prompts — M3") into the agent's prompt.
 - Point the agent at this file first, then at `project_structure.md` for the relevant requirement row.
 - Review agent output against the DoD above before moving the card to Review.
+
+
+## Small test
