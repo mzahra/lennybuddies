@@ -200,12 +200,18 @@ with gr.Blocks(theme=gr.themes.Soft(), title="LinkedIn Post Generator") as demo:
             generate_btn = gr.Button("Generate Post", variant="primary")
 
         with gr.Column(scale=1):
+            # output = gr.Textbox(
+            #     label="JSON Output (inputs + generated post)",
+            #     lines=25,
+            #     interactive=False,
+            #     show_copy_button=True
+            # )
             output = gr.Textbox(
                 label="JSON Output (inputs + generated post)",
                 lines=25,
                 interactive=False,
-                show_copy_button=True
-            )
+                buttons=["copy"]
+)
 
     # --- Event wiring ---
     # Update the info panel whenever the template dropdown changes
