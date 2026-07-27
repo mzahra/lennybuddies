@@ -1,13 +1,11 @@
 """Advanced prompt engineering templates.
 
 Builds the actual LLM prompt from (a) user-selected style inputs and
-(b) 1-3 relevant article summaries, already filtered and handed to us
-by the knowledge_base layer (owned by Mudit/Zahra).
+(b) 1-3 relevant article summaries, loaded from Mudit/Zahra's real
+handoff file: knowledge_base/filtered/filtered_documents.json.
 
-NOTE: as of today, that filtering step isn't live yet, so this file's
-__main__ block uses DUMMY_SOURCE_ARTICLES below to develop/test against.
-Swap for the real function call once knowledge_base.py exposes one —
-see the TODO near the bottom.
+Only title, summary, and source_filename are used as content — keywords
+and tags are intentionally not fed to the LLM (team decision).
 """
 
 from __future__ import annotations
@@ -79,14 +77,16 @@ TEMPLATE_LIBRARY: Dict[str, Dict[str, str]] = {
 def format_source_context(source_articles: List[Dict[str, Any]]) -> str:
     """Turns 1-3 filtered article summaries into a labeled context block.
 
-    Expects each dict to have the shape produced by document_summariser.py:
-    title, summary, source_filename, type, tags (+ any extra fields, ignored).
+    Only title, summary, and source_filename are treated as real content
+    fed to the LLM — keywords/tags are deliberately NOT included (team
+    decision: title + summary are enough; tags now hold topic categories,
+    not a reliable newsletter/podcast type label, so we don't try to
+    derive a type from them anymore).
     """
     blocks = []
     for i, article in enumerate(source_articles, start=1):
         blocks.append(
-            f"Source {i} ({article.get('type', 'article')}, "
-            f"from \"{article['title']}\"):\n"
+            f"Source {i} (from \"{article['title']}\"):\n"
             f"{article['summary']}\n"
             f"[Cite as: {article['source_filename']}]"
         )
@@ -96,12 +96,11 @@ def format_source_context(source_articles: List[Dict[str, Any]]) -> str:
 def build_prompt(payload: Dict[str, Any]) -> str:
     """Builds the full LLM prompt from user inputs + filtered source articles.
 
-    payload shape (agreed contract, pending final confirmation from
-    Mudit/Zahra on the knowledge_base side):
+    payload shape (matches knowledge_base/filtered/filtered_documents.json):
         {
             "inputs": {topic, word_count, language, tone, style, goal,
                        target_audience, call_to_action, template},
-            "source_articles": [ {title, summary, source_filename, type, tags}, ... ]
+            "source_articles": [ {title, summary, source_filename, ...}, ... ]
         }
     """
     inputs = payload["inputs"]
@@ -141,56 +140,41 @@ present in the source material above."""
 
 
 # ---------------------------------------------------------------------
-# DUMMY test data — matches the real primary_summary_index.json schema
-# we've already seen. Use this until knowledge_base.py's real filtering
-# function exists.
-# TODO: once Mudit/Zahra confirm the real function (e.g.
-#       get_relevant_summaries(topic) -> list[dict]), replace
-#       DUMMY_SOURCE_ARTICLES below with a real call to it.
+# REAL data — loaded from Mudit/Zahra's actual handoff file. This is
+# the one and only handoff location, per team agreement: they filter
+# and hand us title + summary (+ some extra metadata we don't use,
+# e.g. keywords — deliberately not fed to the LLM, per team decision).
 # ---------------------------------------------------------------------
-DUMMY_SOURCE_ARTICLES: List[Dict[str, Any]] = [
-  {
-    "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
-    "subtitle": "",
-    "date": "2025-10-05",
-    "tags": ["podcast"],
-    "source_filename": "knowledge_base/primary/test/albert-cheng.md",
-    "keywords": [
-      "user retention",
-      "growth opportunities",
-      "experimentation",
-      "explore-exploit framework",
-      "AI in product development",
-      "company culture",
-      "product management"
-    ],
-    "summary": "In this podcast episode, Albert Cheng, a growth expert with experience at Duolingo, Grammarly, and Chess.com, discusses the importance of user retention and the exploration-exploitation framework for identifying growth opportunities. He emphasizes the need for experimentation in product development, sharing insights on how to effectively connect users to the value of a product. Cheng also highlights the role of AI in enhancing growth strategies and the significance of building a strong company culture that fosters creativity and rapid iteration.",
-    "model": "gpt-4o-mini"
-  },
-  {
-    "title": "An AI glossary",
-    "subtitle": "The most common AI terms explained, simply",
-    "date": "2025-06-24",
-    "tags": ["newsletter"],
-    "source_filename": "knowledge_base/primary/test/an-ai-glossary.md",
-    "keywords": [
-      "AI glossary",
-      "large language models",
-      "training methods",
-      "prompt engineering",
-      "reinforcement learning",
-      "transformer architecture",
-      "generative AI",
-      "synthetic data"
-    ],
-    "summary": "This newsletter provides simplified definitions for over 20 common AI terms, making complex concepts accessible for those unfamiliar with the jargon. It covers essential topics such as AI models, large language models (LLMs), training methods, and various learning techniques, along with practical applications like prompt engineering and retrieval-augmented generation. The glossary serves as a handy reference for anyone looking to better understand the rapidly evolving field of artificial intelligence.",
-    "model": "gpt-4o-mini"
-  }
-]
+import json
+from pathlib import Path
+
+_FILTERED_DOCS_PATH = (
+    Path(__file__).resolve().parents[1]
+    / "knowledge_base" / "filtered" / "filtered_documents.json"
+)
+
+
+def load_filtered_articles(count: int = 3) -> List[Dict[str, Any]]:
+    """Loads the pre-filtered articles Mudit/Zahra hand off for this
+    request. As of today this file is a static 2-entry sample; once
+    their real per-topic filtering is live, this same function keeps
+    working unchanged — only the file's contents change, not this code.
+    """
+    with open(_FILTERED_DOCS_PATH, "r", encoding="utf-8") as f:
+        all_entries = json.load(f)
+
+    # Light defensive check only — real filtering already happened
+    # upstream, so we're not re-filtering here, just guarding against
+    # a genuinely broken/empty record.
+    usable = [entry for entry in all_entries if entry.get("summary")]
+    return usable[:count]
+
+
+FILTERED_SOURCE_ARTICLES: List[Dict[str, Any]] = load_filtered_articles(3)
 
 DUMMY_PAYLOAD: Dict[str, Any] = {
     "inputs": {
-        "topic": "AI",
+        "topic": "shipping AI features without proper evaluation",
         "word_count": "150-500",
         "language": "English",
         "tone": "Professional",
@@ -200,7 +184,7 @@ DUMMY_PAYLOAD: Dict[str, Any] = {
         "call_to_action": "Share Your Thoughts",
         "template": "Promises vs Reality",
     },
-    "source_articles": DUMMY_SOURCE_ARTICLES,
+    "source_articles": FILTERED_SOURCE_ARTICLES,
 }
 
 
