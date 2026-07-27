@@ -19,15 +19,26 @@ import os
 from typing import Any, Dict
 
 from dotenv import load_dotenv
-from openai import OpenAI
+from openai import OpenAI, OpenAIError
 
-from prompt_templates import build_prompt, DUMMY_PAYLOAD
-from knowledge_base import get_relevant_summaries, save_filtered_documents
+from prompt_templates import build_prompt, DUMMY_PAYLOAD, PromptTemplateError
+from knowledge_base import get_relevant_summaries, save_filtered_documents, KnowledgeBaseError
 
 load_dotenv()
 
 MODEL = "gpt-4o-mini"  # per agents.md — do not switch without team sign-off
-_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+_api_key = os.getenv("OPENAI_API_KEY")
+if not _api_key:
+    raise EnvironmentError(
+        "OPENAI_API_KEY is not set. Add it to your .env file before running "
+        "llm_integration.py."
+    )
+_client = OpenAI(api_key=_api_key)
+
+
+class LLMIntegrationError(Exception):
+    """Raised when any step of the generate/polish pipeline fails."""
 
 
 DRAFT_SYSTEM_PROMPT = """You are a skilled LinkedIn ghostwriter. Write the
@@ -78,29 +89,59 @@ LinkedIn post."""
 
 
 def generate_draft(prompt: str) -> str:
-    """Step 1: generate the initial post draft from the built prompt."""
-    response = _client.chat.completions.create(
-        model=MODEL,
-        messages=[
-            {"role": "system", "content": DRAFT_SYSTEM_PROMPT},
-            {"role": "user", "content": prompt},
-        ],
-        max_tokens=800,
-    )
-    return response.choices[0].message.content.strip()
+    """Step 1: generate the initial post draft from the built prompt.
+
+    Raises:
+        LLMIntegrationError: if prompt is empty or the API call fails.
+    """
+    if not prompt or not prompt.strip():
+        raise LLMIntegrationError("Cannot generate a draft from an empty prompt")
+
+    try:
+        response = _client.chat.completions.create(
+            model=MODEL,
+            messages=[
+                {"role": "system", "content": DRAFT_SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ],
+            max_tokens=800,
+        )
+    except OpenAIError as exc:
+        raise LLMIntegrationError(f"Draft generation failed: {exc}") from exc
+
+    content = response.choices[0].message.content
+    if not content or not content.strip():
+        raise LLMIntegrationError("Draft generation returned empty content")
+
+    return content.strip()
 
 
 def polish_draft(draft: str) -> str:
-    """Step 2: run the draft through the AI-slop editing pass."""
-    response = _client.chat.completions.create(
-        model=MODEL,
-        messages=[
-            {"role": "system", "content": EDITING_SYSTEM_PROMPT},
-            {"role": "user", "content": draft},
-        ],
-        max_tokens=800,
-    )
-    return response.choices[0].message.content.strip()
+    """Step 2: run the draft through the AI-slop editing pass.
+
+    Raises:
+        LLMIntegrationError: if draft is empty or the API call fails.
+    """
+    if not draft or not draft.strip():
+        raise LLMIntegrationError("Cannot polish an empty draft")
+
+    try:
+        response = _client.chat.completions.create(
+            model=MODEL,
+            messages=[
+                {"role": "system", "content": EDITING_SYSTEM_PROMPT},
+                {"role": "user", "content": draft},
+            ],
+            max_tokens=800,
+        )
+    except OpenAIError as exc:
+        raise LLMIntegrationError(f"Polish pass failed: {exc}") from exc
+
+    content = response.choices[0].message.content
+    if not content or not content.strip():
+        raise LLMIntegrationError("Polish pass returned empty content")
+
+    return content.strip()
 
 
 def generate_post(payload: Dict[str, Any]) -> str:
@@ -108,8 +149,16 @@ def generate_post(payload: Dict[str, Any]) -> str:
 
     payload shape: see prompt_templates.build_prompt() docstring
     (expects "source_articles" to already be filtered).
+
+    Raises:
+        LLMIntegrationError: if prompt building or either generation step
+        fails.
     """
-    prompt = build_prompt(payload)
+    try:
+        prompt = build_prompt(payload)
+    except PromptTemplateError as exc:
+        raise LLMIntegrationError(f"Failed to build prompt: {exc}") from exc
+
     draft = generate_draft(prompt)
     final_post = polish_draft(draft)
     return final_post
@@ -125,9 +174,21 @@ def generate_post_from_inputs(inputs: Dict[str, Any], top_k: int = 5) -> str:
 
     inputs shape: {topic, word_count, language, tone, style, goal,
                    target_audience, call_to_action, template}
+
+    Raises:
+        LLMIntegrationError: if inputs is malformed or any pipeline step
+        fails.
     """
-    source_articles = get_relevant_summaries(inputs["topic"], top_k=top_k)
-    save_filtered_documents(source_articles)
+    topic = inputs.get("topic") if isinstance(inputs, dict) else None
+    if not isinstance(topic, str) or not topic.strip():
+        raise LLMIntegrationError("inputs must be a dict with a non-empty 'topic' field")
+
+    try:
+        source_articles = get_relevant_summaries(inputs["topic"], top_k=top_k)
+        save_filtered_documents(source_articles)
+    except KnowledgeBaseError as exc:
+        raise LLMIntegrationError(f"Knowledge base filtering failed: {exc}") from exc
+
     payload = {"inputs": inputs, "source_articles": source_articles}
     return generate_post(payload)
 
@@ -144,8 +205,11 @@ if __name__ == "__main__":
         "call_to_action": "Share Your Thoughts",
         "template": "Promises vs Reality",
     }
-    post = generate_post_from_inputs(sample_inputs)
-    print("=" * 60)
-    print("FINAL LINKEDIN POST")
-    print("=" * 60)
-    print(post)
+    try:
+        post = generate_post_from_inputs(sample_inputs)
+        print("=" * 60)
+        print("FINAL LINKEDIN POST")
+        print("=" * 60)
+        print(post)
+    except LLMIntegrationError as exc:
+        print(f"ERROR: {exc}")

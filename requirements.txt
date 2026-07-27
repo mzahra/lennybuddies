@@ -1,0 +1,6 @@
+openai
+python-dotenv
+python-frontmatter
+scikit-learn
+gradio
+pytest
