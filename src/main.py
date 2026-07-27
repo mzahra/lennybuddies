@@ -184,4 +184,4 @@ with gr.Blocks(title="LinkedIn Post Generator", theme=gr.themes.Soft()) as demo:
     gr.Markdown("---\n💡 *Select a template to see its structure and example appear instantly – like a built‑in preview pop‑up.*")
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
