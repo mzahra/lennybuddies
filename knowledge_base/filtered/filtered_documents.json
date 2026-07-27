@@ -1,26 +1,116 @@
 [
   {
-    "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
-    "subtitle": "",
-    "date": "2025-12-28",
+    "title": "Beyond vibe checks: A PM\u2019s complete guide to evals",
+    "subtitle": "How to master the emerging skill that can make or break an AI product",
+    "date": "2025-04-08",
     "tags": [
+      "AI/ML",
+      "product management",
+      "software development"
+    ],
+    "source_filename": "knowledge_base/beyond-vibe-checks-a-pms-complete-guide-to-evals.md",
+    "keywords": [
+      "AI product management",
+      "evaluations",
+      "LLM-based evals",
+      "human feedback",
+      "product development",
+      "AI systems",
+      "performance metrics"
+    ],
+    "summary": "As AI products become increasingly complex, mastering evaluations (evals) is essential for product managers. Evals provide a systematic way to measure the effectiveness of AI systems, ensuring they meet user expectations and deliver value. This guide outlines various approaches to writing effective evals, emphasizing their importance in the development and continuous improvement of AI products.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+    "subtitle": "",
+    "date": "2025-09-25",
+    "tags": [
+      "AI/ML",
+      "product development",
+      "data analysis"
+    ],
+    "source_filename": "knowledge_base/hamel-husain--shreya-shankar.md",
+    "keywords": [
+      "AI product development",
+      "evals",
+      "error analysis",
+      "product management",
+      "data-driven decision making",
+      "LLM evaluation",
+      "user experience"
+    ],
+    "summary": "In this episode, Lenny Rachitsky discusses the importance of evaluation (eval) skills for AI product builders with experts Hamel Husain and Shreya Shankar. They explain how effective evals can significantly improve AI applications by systematically measuring performance and iterating on feedback. The conversation also addresses common misconceptions about evals, the integration of AI in the eval process, and the need for product managers to engage deeply with their data to enhance product quality.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+    "subtitle": "",
+    "date": "2025-09-18",
+    "tags": [
+      "AI/ML",
+      "business growth",
+      "career advice",
+      "technology trends"
+    ],
+    "source_filename": "knowledge_base/brendan-foody.md",
+    "keywords": [
+      "AI evals",
+      "Mercor",
+      "model capabilities",
+      "job creation",
+      "revenue growth",
+      "labor marketplace",
+      "reinforcement learning",
+      "future of work"
+    ],
+    "summary": "Brendan Foody, CEO of Mercor, discusses the unprecedented growth of his company, which has rapidly scaled from $1 million to $400 million in revenue in just 16 months. He emphasizes the critical role of 'evals' in the AI landscape, which are essential for measuring model capabilities and driving advancements in AI technology. Foody also highlights the emerging job opportunities created by AI, countering the narrative of job displacement and suggesting that the future of work will involve humans collaborating with AI to enhance productivity.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The secret to better AI prototypes: Why Tinder\u2019s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
+    "subtitle": "",
+    "date": "2025-09-29",
+    "tags": [
+      "product management",
+      "leadership",
+      "coaching",
+      "AI/ML"
+    ],
+    "source_filename": "knowledge_base/ravi-mehta.md",
+    "keywords": [
+      "product strategy",
+      "Ravi Mehta",
+      "coaching",
+      "AI",
       "leadership",
       "product management",
-      "entrepreneurship",
+      "customer insights",
+      "product execution"
+    ],
+    "summary": "In this episode, Ravi Mehta shares insights from his extensive experience in product management, emphasizing the importance of a structured approach to product strategy. He introduces the 'product strategy stack' framework, which helps clarify the relationship between a company's mission, strategy, product strategy, roadmap, and goals. Mehta also discusses the nuances of leadership, the role of AI in coaching, and the significance of understanding customer insights to drive product success.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "How Anthropic\u2019s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
+    "subtitle": "",
+    "date": "2026-04-23",
+    "tags": [
+      "product development",
+      "AI/ML",
       "team dynamics"
     ],
-    "source_filename": "knowledge_base/test/matt-macinnis.md",
+    "source_filename": "knowledge_base/cat-wu.md",
     "keywords": [
-      "leadership",
-      "extraordinary effort",
-      "under-staffing",
-      "feedback culture",
-      "team intensity",
-      "Rippling",
       "product management",
-      "entrepreneurship"
+      "AI innovation",
+      "rapid shipping",
+      "product taste",
+      "collaboration",
+      "Claude Code",
+      "Anthropic"
     ],
-    "summary": "In this episode, Matt MacInnis, Chief Product Officer at Rippling, shares his contrarian views on leadership and the necessity of extraordinary effort for achieving exceptional outcomes. He emphasizes the importance of under-staffing projects to avoid inefficiencies and politics, while advocating for a culture of intense feedback and escalation of issues. MacInnis also discusses the significance of maintaining high energy levels within teams to combat entropy and drive success in a competitive landscape.",
+    "summary": "In this episode, Cat Wu, Head of Product at Anthropic, discusses the rapid pace of innovation within the company and the evolving role of product managers (PMs) in the AI landscape. Wu emphasizes the importance of removing barriers to shipping products quickly and highlights the need for PMs to develop a strong product taste as coding becomes more accessible. The conversation also touches on the significance of collaboration across teams and the necessity for PMs to adapt to the fast-changing capabilities of AI models.",
     "model": "gpt-4o-mini"
   }
 ]
