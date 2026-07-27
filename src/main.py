@@ -162,8 +162,8 @@ with gr.Blocks(title="LinkedIn Post Generator") as demo:
                 label="Generated LinkedIn Post",
                 lines=25,
                 interactive=False,
-                # show_copy_button=True
-                buttons=["copy"]
+                show_copy_button=True
+                # buttons=["copy"]
             )
 
     # --- Event wiring ---
