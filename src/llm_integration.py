@@ -1,13 +1,16 @@
 # LLM API integration
 """LLM API integration.
 
-Two-step generation, per Mudit's Slack message on removing AI slop:
+Three-step generation:
+  0. knowledge_base.get_relevant_summaries() — filters processed_documents.json
+     down to the 1-5 documents most relevant to the user's topic
   1. generate_draft()  — writes the initial post from the built prompt
   2. polish_draft()    — runs it through an editing pass that strips AI
                           slop patterns while preserving the writer's voice
 
-generate_post() runs both steps and returns the final, ready-to-paste
-LinkedIn post text — no markdown headers, no restated metadata.
+generate_post_from_inputs() runs the full pipeline (filter -> draft ->
+polish) and returns the final, ready-to-paste LinkedIn post text — no
+markdown headers, no restated metadata.
 """
 
 from __future__ import annotations
@@ -19,11 +22,12 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 from prompt_templates import build_prompt, DUMMY_PAYLOAD
+from knowledge_base import get_relevant_summaries, save_filtered_documents
 
 load_dotenv()
 
 MODEL = "gpt-4o-mini"  # per agents.md — do not switch without team sign-off
-_client = OpenAI(api_key=os.getenv("LLM_API_KEY"))
+_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 DRAFT_SYSTEM_PROMPT = """You are a skilled LinkedIn ghostwriter. Write the
@@ -100,9 +104,10 @@ def polish_draft(draft: str) -> str:
 
 
 def generate_post(payload: Dict[str, Any]) -> str:
-    """Public entry point: payload in, finished ready-to-paste post out.
+    """Runs draft + polish on an already-assembled payload.
 
-    payload shape: see prompt_templates.build_prompt() docstring.
+    payload shape: see prompt_templates.build_prompt() docstring
+    (expects "source_articles" to already be filtered).
     """
     prompt = build_prompt(payload)
     draft = generate_draft(prompt)
@@ -110,8 +115,36 @@ def generate_post(payload: Dict[str, Any]) -> str:
     return final_post
 
 
+def generate_post_from_inputs(inputs: Dict[str, Any], top_k: int = 5) -> str:
+    """Full pipeline entry point: user inputs in, finished post out.
+
+    Filters processed_documents.json down to the top_k (1-5) documents
+    most relevant to inputs["topic"], saves that filtered set to
+    knowledge_base/processed/filtered_documents.json (same format as
+    processed_documents.json), then runs the draft + polish steps.
+
+    inputs shape: {topic, word_count, language, tone, style, goal,
+                   target_audience, call_to_action, template}
+    """
+    source_articles = get_relevant_summaries(inputs["topic"], top_k=top_k)
+    save_filtered_documents(source_articles)
+    payload = {"inputs": inputs, "source_articles": source_articles}
+    return generate_post(payload)
+
+
 if __name__ == "__main__":
-    post = generate_post(DUMMY_PAYLOAD)
+    sample_inputs = {
+        "topic": "AI and product growth strategy",
+        "word_count": "150-500",
+        "language": "English",
+        "tone": "Professional",
+        "style": "Storytelling",
+        "goal": "Build Personal Brand",
+        "target_audience": "Product Managers",
+        "call_to_action": "Share Your Thoughts",
+        "template": "Promises vs Reality",
+    }
+    post = generate_post_from_inputs(sample_inputs)
     print("=" * 60)
     print("FINAL LINKEDIN POST")
     print("=" * 60)

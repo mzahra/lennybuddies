@@ -90,5 +90,5 @@ def process_knowledge_base():
 
 if __name__ == "__main__":
     all_results = process_knowledge_base()
-    with open("knowledge_base/processed/processed_documents_2.json", "w") as f:
+    with open("knowledge_base/processed/processed_documents.json", "w") as f:
         json.dump(all_results, f, indent=2)
