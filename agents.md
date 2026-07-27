@@ -1,10 +1,10 @@
-# agents.md — Lenny Pulse (AI Content Creator)
+# agents.md — Lenny Buddies (AI Content Creator)
 
 > Point any coding agent (Claude Code, Cursor, Copilot agent mode, etc.) at this file first, before it touches the repo.
 
 ## Purpose
 
-Lenny Pulse generates authentic, brand-differentiated LinkedIn posts from Lenny's Podcast episode transcripts and related newsletter notes. It grounds each post in locally stored markdown plus a filtered document handoff so output stays traceable to real source material, not generic AI commentary. Team: Mudit, Jay, Parisa, Zahra.
+Lenny Buddies generates authentic, brand-differentiated LinkedIn posts from Lenny's Podcast episode transcripts and related newsletter notes. It grounds each post in locally stored markdown plus a filtered document handoff so output stays traceable to real source material, not generic AI commentary. Team: Mudit, Jay, Parisa, Zahra.
 
 ## Stack & run
 

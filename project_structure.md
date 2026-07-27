@@ -4,7 +4,7 @@
 
 ## 1. Project identity
 
-- **Project name:** Lenny Pulse *(working title — team to confirm)*
+- **Project name:** Lenny Buddies *(working title — team to confirm)*
 - **Primary project type:** R&D
 - **Defined goal (1 sentence):** Generate authentic, brand-differentiated LinkedIn posts from Lenny's Podcast episode transcripts, grounded in a two-tier knowledge base (episode content + a defined voice/style guide).
 - **Start / end:** Day 1 morning → Day 2 presentation

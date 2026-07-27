@@ -1,6 +1,6 @@
-# Lenny Pulse
+# Lenny Buddies
 
-Lenny Pulse generates authentic, brand-differentiated LinkedIn posts grounded in Lenny's Podcast episode transcripts and newsletter notes. Pick a topic, a tone, and a structural template, and the pipeline finds the most relevant source material, drafts a post, and runs it through an editing pass that strips generic "AI slop" while preserving your voice.
+Lenny Buddies generates authentic, brand-differentiated LinkedIn posts grounded in Lenny's Podcast episode transcripts and newsletter notes. Pick a topic, a tone, and a structural template, and the pipeline finds the most relevant source material, drafts a post, and runs it through an editing pass that strips generic "AI slop" while preserving your voice.
 
 Built as a 2-day team project (R&D). Team: Mudit, Jay, Parisa, Zahra.
 
