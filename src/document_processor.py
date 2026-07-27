@@ -8,7 +8,7 @@ from openai import OpenAI
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-SYSTEM_PROMPT = """You are a content analysis assistant for a newsletter/podcast processing pipeline. You will be given existing metadata (title, subtitle, date, tags, source_filename) plus the raw body text of the content. Your job is to generate ONLY two new fields: "summary" and "keywords".
+SYSTEM_PROMPT = """You are a content analysis assistant for a newsletter/podcast processing pipeline. You will be given existing metadata (title, subtitle, date, tags, source_filename) plus the raw body text of the content. Your job is to generate the fields: "summary", "keywords", and "tags".
 
 Rules for "summary":
 - 2-4 sentences capturing the core argument or main takeaways
@@ -20,23 +20,27 @@ Rules for "keywords":
 - Never include: URLs, file paths, footnote/reference numbers, generic phrases like "part 1", 'step 1', firstly, secondly, or fragments of the title/subtitle
 - Prefer specific nouns/phrases a reader would use to search for this content
 
+Rules for "tags":
+- 2-4 broad category labels that classify what this content is about (e.g. "leadership", "AI/ML", "product growth", "marketing", "career advice")
+- These should be higher-level than keywords — think of them as folder/category labels, not specific topics
+- Do not include content-format labels like "podcast" or "newsletter" — tags describe subject matter, not format
+- Use consistent, reusable terms so similar content across documents shares the same tags
+
 Return ONLY valid JSON in this exact structure, with no other text:
 {
   "summary": "...",
-  "keywords": ["...", "...", "..."]
+  "keywords": ["...", "...", "..."],
+  "tags": ["...", "..."]
 }
 """
 
-def load_document(filepath, default_tag=""):
+def load_document(filepath):
     post = frontmatter.load(filepath)
-    tags = post.get("tags", [])
-    if not tags and default_tag:
-        tags = [default_tag]
     metadata = {
         "title": post.get("title", ""),
         "subtitle": post.get("subtitle", ""),
         "date": post.get("date", ""),
-        "tags": tags,
+        "tags": post.get("tags", []),
         "source_filename": filepath,
     }
     return metadata, post.content
@@ -62,8 +66,12 @@ Body content:
 
     llm_output = json.loads(response.choices[0].message.content)
 
+    # only use LLM-generated tags if front matter didn't already provide any
+    tags = metadata["tags"] if metadata["tags"] else llm_output.get("tags", [])
+
     return {
         **metadata,
+        "tags": tags,
         "keywords": llm_output["keywords"],
         "summary": llm_output["summary"],
         "model": model_name
@@ -71,14 +79,10 @@ Body content:
 
 def process_knowledge_base():
     results = []
-    folder_tags = {
-        "knowledge_base/primary/newsletters/": "newsletter",
-        "knowledge_base/primary/podcasts/": "podcast",
-    }
-    # for folder, default_tag in folder_tags.items():
-    for folder, default_tag in [("knowledge_base/primary/test/", "newsletter")]:
+    # for folder in ["knowledge_base/primary/newsletters/", "knowledge_base/primary/podcasts/"]:
+    for folder in ["knowledge_base/test/"]:
         for filepath in glob.glob(os.path.join(folder, "*.md")):
-            metadata, body_text = load_document(filepath, default_tag=default_tag)
+            metadata, body_text = load_document(filepath)
             result = process_document(metadata, body_text)
             results.append(result)
             print(f"Processed: {filepath}")
@@ -86,5 +90,5 @@ def process_knowledge_base():
 
 if __name__ == "__main__":
     all_results = process_knowledge_base()
-    with open("knowledge_base/processed/processed_documents_zahra.json", "w") as f:
+    with open("knowledge_base/processed/processed_documents_2.json", "w") as f:
         json.dump(all_results, f, indent=2)
