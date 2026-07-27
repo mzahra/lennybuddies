@@ -133,6 +133,7 @@ with gr.Blocks(theme=gr.themes.Soft(), title="LinkedIn Post Generator") as demo:
                 lines=25,
                 interactive=False,
                 show_copy_button=True
+                # buttons=["copy"]
             )
 
     # --- Event wiring ---
