@@ -1,26 +1,259 @@
 [
   {
-    "title": "An AI glossary",
-    "subtitle": "The most common AI terms explained, simply",
-    "date": "2025-06-24",
+    "title": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
+    "subtitle": "",
+    "date": "2026-06-07",
     "tags": [
-      "artificial intelligence",
       "technology",
-      "education",
-      "machine learning"
+      "product management",
+      "innovation",
+      "marketing"
     ],
-    "source_filename": "knowledge_base/test/an-ai-glossary.md",
+    "source_filename": "knowledge_base/tony-fadell.md",
     "keywords": [
-      "AI terminology",
-      "large language models",
-      "transformer architecture",
-      "supervised learning",
-      "reinforcement learning",
-      "prompt engineering",
-      "generative AI",
-      "synthetic data"
+      "Tony Fadell",
+      "AI",
+      "product development",
+      "storytelling",
+      "iPod",
+      "iPhone",
+      "Nest",
+      "innovation"
     ],
-    "summary": "This glossary provides simple definitions for over 20 common AI terms, making complex concepts accessible for those unfamiliar with the jargon. It covers essential topics such as AI models, large language models, and training methods, while also addressing advanced techniques like reinforcement learning from human feedback and prompt engineering. The glossary serves as a handy reference for anyone looking to better understand the rapidly evolving field of artificial intelligence.",
+    "summary": "In this episode, Tony Fadell, co-creator of the iPod and iPhone, discusses the importance of human creativity and judgment in the age of AI. He emphasizes that while technology can enhance our capabilities, it should not replace human decision-making. Fadell shares insights on building successful products, the significance of storytelling in marketing, and the need for a clear vision in product development, all while cautioning against the pitfalls of over-reliance on technology.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "How to show up in any room with a low heart rate: Silicon Valley\u2019s missing etiquette playbook | Sam Lessin",
+    "subtitle": "",
+    "date": "2026-01-15",
+    "tags": [
+      "career advice",
+      "professional development",
+      "networking"
+    ],
+    "source_filename": "knowledge_base/sam-lessin.md",
+    "keywords": [
+      "etiquette",
+      "Silicon Valley",
+      "founders",
+      "professional behavior",
+      "networking",
+      "social interactions",
+      "confidence",
+      "abundance mindset"
+    ],
+    "summary": "In this episode, Sam Lessin discusses the importance of etiquette for founders in Silicon Valley, emphasizing how proper behavior can foster trust and confidence in professional settings. He shares practical tips for various social interactions, including introductions, dining, and meetings, highlighting the significance of showing up with a calm demeanor and an abundance mindset. Lessin argues that etiquette is not just about following rules but about creating meaningful connections and opportunities in a competitive environment.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+    "subtitle": "",
+    "date": "2025-10-19",
+    "tags": [
+      "productivity",
+      "software development",
+      "DevOps",
+      "engineering management"
+    ],
+    "source_filename": "knowledge_base/nicole-forsgren.md",
+    "keywords": [
+      "developer productivity",
+      "DORA framework",
+      "SPACE framework",
+      "software delivery performance",
+      "developer experience",
+      "measurement",
+      "DevOps"
+    ],
+    "summary": "In this episode, Nicole Forsgren discusses the importance of measuring developer productivity and experience, emphasizing the need for clarity in goals and definitions. She introduces frameworks such as DORA and SPACE, which provide metrics for assessing software delivery performance and productivity. Forsgren highlights the significance of a holistic approach to developer experience, advocating for a balance between speed and stability in software development processes.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+    "subtitle": "",
+    "date": "2025-11-02",
+    "tags": [
+      "entrepreneurship",
+      "business strategy",
+      "social impact",
+      "product innovation"
+    ],
+    "source_filename": "knowledge_base/melanie-perkins.md",
+    "keywords": [
+      "Melanie Perkins",
+      "Canva",
+      "Crazy Big Goals",
+      "Column B thinking",
+      "community feedback",
+      "product development",
+      "global education",
+      "poverty alleviation"
+    ],
+    "summary": "Melanie Perkins, co-founder and CEO of Canva, shares her journey from facing over 100 investor rejections to building a $42 billion company. She emphasizes the importance of setting 'Crazy Big Goals' and the concept of 'Column B thinking,' which involves envisioning an ideal future and working backwards to achieve it. Perkins discusses the value of community feedback in product development and her commitment to using Canva's success to address global issues, such as poverty and education.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The high-growth handbook: Molly Graham\u2019s frameworks for leading through chaos, change, and scale",
+    "subtitle": "",
+    "date": "2026-01-04",
+    "tags": [
+      "leadership",
+      "career advice",
+      "organizational growth",
+      "personal development"
+    ],
+    "source_filename": "knowledge_base/molly-graham.md",
+    "keywords": [
+      "leadership",
+      "growth",
+      "company culture",
+      "J-curve",
+      "Waterline Model",
+      "high performers",
+      "career development",
+      "Molly Graham"
+    ],
+    "summary": "In this episode, Molly Graham shares her insights on leadership and navigating rapid growth in organizations. Drawing from her experiences at Google and Facebook, she emphasizes the importance of adapting to change, the necessity of clear roles and expectations, and the value of giving away responsibilities to foster personal and organizational growth. Molly also discusses frameworks like the J-curve for career development and the Waterline Model for diagnosing team issues, highlighting the significance of focusing on high performers and the realities of company culture shaped by founders.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Slack founder: Mental models for building products people love ft. Stewart Butterfield",
+    "subtitle": "",
+    "date": "2025-11-20",
+    "tags": [
+      "product management",
+      "leadership",
+      "customer experience",
+      "software development"
+    ],
+    "source_filename": "knowledge_base/stewart-butterfield.md",
+    "keywords": [
+      "Stewart Butterfield",
+      "Slack",
+      "product development",
+      "utility curves",
+      "customer value",
+      "friction in design",
+      "leadership",
+      "pivoting"
+    ],
+    "summary": "In this episode, Stewart Butterfield, co-founder of Slack, shares his insights on product development and leadership. He emphasizes the importance of creating value for customers and understanding the balance between friction and comprehension in product design. Butterfield also discusses the concept of 'utility curves' to guide product resource allocation and the significance of maintaining a culture of continuous improvement within teams.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Why LinkedIn is turning PMs into AI-powered \"full stack builders\u201d | Tomer Cohen (LinkedIn CPO)",
+    "subtitle": "",
+    "date": "2025-12-04",
+    "tags": [
+      "product development",
+      "AI/ML",
+      "career growth",
+      "leadership"
+    ],
+    "source_filename": "knowledge_base/tomer-cohen.md",
+    "keywords": [
+      "LinkedIn",
+      "AI-first strategy",
+      "product management",
+      "knowledge exchange",
+      "user engagement",
+      "clarity in execution",
+      "Tomer Cohen"
+    ],
+    "summary": "In this episode, Tomer Cohen, LinkedIn's Chief Product Officer, discusses the platform's transformation into an AI-first environment that empowers product managers to become 'full stack builders.' He emphasizes the importance of clarity in both thought and execution, advocating for a culture where being wrong is acceptable as long as confusion is not. Tomer shares insights on how LinkedIn has shifted its focus to knowledge exchange and meaningful engagement, leveraging AI to enhance user experience and foster professional connections.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "An AI state of the union: We\u2019ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison",
+    "subtitle": "",
+    "date": "2026-04-02",
+    "tags": [
+      "AI/ML",
+      "software development",
+      "productivity",
+      "data analysis"
+    ],
+    "source_filename": "knowledge_base/simon-willison.md",
+    "keywords": [
+      "AI",
+      "coding agents",
+      "software engineering",
+      "prompt injection",
+      "Challenger disaster",
+      "automation",
+      "agentic engineering",
+      "data journalism"
+    ],
+    "summary": "In this episode, Simon Willison discusses the transformative impact of AI on software engineering, highlighting the emergence of coding agents that can produce significant amounts of code with minimal human input. He raises concerns about the potential for disasters akin to the Challenger disaster due to the normalization of risky practices in AI usage. Willison also emphasizes the importance of responsible AI use, the need for robust testing practices, and the future of personal digital assistants, while sharing insights from his extensive experience in the field.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Sherwin Wu V2",
+    "subtitle": "",
+    "date": "2026-02-12",
+    "tags": [
+      "AI/ML",
+      "software development",
+      "business strategy",
+      "technology trends"
+    ],
+    "source_filename": "knowledge_base/sherwin-wu-v2.md",
+    "keywords": [
+      "Codex",
+      "AI tools",
+      "software engineering",
+      "business process automation",
+      "one-person billion-dollar startup",
+      "tech leads",
+      "multimodal models"
+    ],
+    "summary": "In this episode, Sherwin Wu discusses the transformative impact of AI on the engineering profession, highlighting how tools like Codex are reshaping the role of engineers into tech leads who manage multiple AI agents. He emphasizes the potential for a surge in one-person billion-dollar startups, driven by the ease of software development through AI, and warns against overly relying on customer feedback in a rapidly evolving field. Wu also shares insights on the future of AI, including advancements in multimodal models and the importance of business process automation.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
+    "subtitle": "",
+    "date": "2026-04-19",
+    "tags": [
+      "career development",
+      "technology trends",
+      "product management",
+      "workplace dynamics"
+    ],
+    "source_filename": "knowledge_base/nikhyl-singhal-2.md",
+    "keywords": [
+      "product management",
+      "AI impact",
+      "career advice",
+      "job market",
+      "builder mindset",
+      "industry transformation",
+      "skills evolution"
+    ],
+    "summary": "The landscape for product managers is undergoing a significant transformation, driven by the rise of AI and changing industry demands. As traditional roles evolve, those who thrive will be builders, capable of adapting to rapid changes and leveraging new tools to enhance productivity. However, many mid-career professionals may find themselves in a precarious position if they do not embrace this shift towards a more hands-on, innovative approach to product management.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The non-technical PM\u2019s guide to building with Cursor | Zevi Arnovitz (Meta)",
+    "subtitle": "",
+    "date": "2026-01-18",
+    "tags": [
+      "AI/ML",
+      "product development",
+      "career advice"
+    ],
+    "source_filename": "knowledge_base/zevi-arnovitz.md",
+    "keywords": [
+      "AI tools",
+      "product management",
+      "Cursor",
+      "Claude Code",
+      "non-technical PM",
+      "code review",
+      "startup building"
+    ],
+    "summary": "In this episode, Zevi Arnovitz, a non-technical product manager at Meta, shares his journey of leveraging AI tools like Cursor and Claude Code to build products without any coding background. He emphasizes the transformative potential of AI for aspiring builders, highlighting how it enables individuals to create and iterate on projects quickly. Zevi also discusses his unique workflow, which includes using AI for code review and project management, and encourages listeners to embrace the learning opportunities that come with these technologies.",
     "model": "gpt-4o-mini"
   },
   {
@@ -29,25 +262,491 @@
     "date": "2025-12-28",
     "tags": [
       "leadership",
-      "product management",
-      "entrepreneurship",
-      "team dynamics"
+      "team dynamics",
+      "business strategy"
     ],
-    "source_filename": "knowledge_base/test/matt-macinnis.md",
+    "source_filename": "knowledge_base/matt-macinnis.md",
     "keywords": [
       "leadership",
       "extraordinary effort",
       "under-staffing",
       "feedback culture",
-      "team intensity",
-      "Rippling",
-      "product management",
-      "entrepreneurship"
+      "team performance",
+      "intensity",
+      "Rippling"
     ],
-    "summary": "In this episode, Matt MacInnis, Chief Product Officer at Rippling, shares his contrarian views on leadership and the necessity of extraordinary effort for achieving exceptional outcomes. He emphasizes the importance of under-staffing projects to avoid inefficiencies and politics, while advocating for a culture of intense feedback and escalation of issues. MacInnis also discusses the significance of maintaining high energy levels within teams to combat entropy and drive success in a competitive landscape.",
+    "summary": "In this episode, Matt MacInnis, Chief Product Officer at Rippling, shares contrarian insights on leadership and the necessity of extraordinary effort for achieving exceptional outcomes. He emphasizes the importance of under-staffing projects to avoid inefficiencies and politics, and advocates for a culture of open feedback to enhance team performance. MacInnis also discusses the significance of maintaining intensity within teams to combat entropy and drive success in a competitive landscape.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
+    "subtitle": "",
+    "date": "2025-11-23",
+    "tags": [
+      "leadership",
+      "team building",
+      "personal development"
+    ],
+    "source_filename": "knowledge_base/rachel-lockett.md",
+    "keywords": [
+      "leadership",
+      "coaching",
+      "difficult conversations",
+      "team dynamics",
+      "burnout prevention",
+      "active listening",
+      "one-page plan"
+    ],
+    "summary": "In this conversation, Rachel Lockett shares insights on effective leadership, emphasizing the importance of difficult conversations and building high-trust teams. She advocates for a coaching approach that empowers team members to solve their own problems rather than relying on leaders for all the answers. Lockett also highlights the significance of aligning personal strengths with professional roles to prevent burnout and enhance overall job satisfaction.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The secret to better AI prototypes: Why Tinder\u2019s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
+    "subtitle": "",
+    "date": "2025-09-29",
+    "tags": [
+      "product management",
+      "leadership",
+      "coaching",
+      "AI/ML"
+    ],
+    "source_filename": "knowledge_base/ravi-mehta.md",
+    "keywords": [
+      "product strategy",
+      "Ravi Mehta",
+      "coaching",
+      "AI",
+      "leadership",
+      "product management",
+      "customer insights",
+      "product execution"
+    ],
+    "summary": "In this episode, Ravi Mehta shares insights from his extensive experience in product management, emphasizing the importance of a structured approach to product strategy. He introduces the 'product strategy stack' framework, which helps clarify the relationship between a company's mission, strategy, product strategy, roadmap, and goals. Mehta also discusses the nuances of leadership, the role of AI in coaching, and the significance of understanding customer insights to drive product success.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
+    "subtitle": "",
+    "date": "2025-10-10",
+    "tags": [
+      "AI/ML",
+      "product management",
+      "technology",
+      "innovation"
+    ],
+    "source_filename": "knowledge_base/robby-stein.md",
+    "keywords": [
+      "AI Mode",
+      "Google Search",
+      "AI Overviews",
+      "product development",
+      "user experience",
+      "innovation",
+      "Robby Stein",
+      "Google Gemini"
+    ],
+    "summary": "In this episode, Robby Stein, VP of Product at Google Search, discusses the transformative changes happening at Google, particularly with the introduction of AI Mode and AI Overviews. He emphasizes the importance of understanding user needs and the urgency to innovate in response to emerging AI technologies. Stein shares insights from his career, including lessons learned from building successful products and the significance of relentless improvement and curiosity in product development.",
     "model": "gpt-4o-mini"
   },
     {
+    "title": "Boris Cherny",
+    "subtitle": "",
+    "date": "2026-02-19",
+    "tags": [
+      "AI/ML",
+      "software development",
+      "productivity",
+      "career trends"
+    ],
+    "source_filename": "knowledge_base/boris-cherny.md",
+    "keywords": [
+      "Claude Code",
+      "AI in software engineering",
+      "productivity",
+      "future of coding",
+      "Anthropic",
+      "job roles",
+      "technology transformation"
+    ],
+    "summary": "In this episode, Boris Cherny, head of Claude Code at Anthropic, discusses the transformative impact of AI on software engineering. He shares insights on how Claude Code has enabled engineers to increase productivity significantly, with many now relying entirely on AI for coding tasks. Cherny predicts a future where coding becomes accessible to everyone, leading to a shift in job roles and the way software is developed.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+    "subtitle": "",
+    "date": "2025-09-18",
+    "tags": [
+      "AI/ML",
+      "business growth",
+      "career advice",
+      "technology trends"
+    ],
+    "source_filename": "knowledge_base/brendan-foody.md",
+    "keywords": [
+      "AI evals",
+      "Mercor",
+      "model capabilities",
+      "job creation",
+      "revenue growth",
+      "labor marketplace",
+      "reinforcement learning",
+      "future of work"
+    ],
+    "summary": "Brendan Foody, CEO of Mercor, discusses the unprecedented growth of his company, which has rapidly scaled from $1 million to $400 million in revenue in just 16 months. He emphasizes the critical role of 'evals' in the AI landscape, which are essential for measuring model capabilities and driving advancements in AI technology. Foody also highlights the emerging job opportunities created by AI, countering the narrative of job displacement and suggesting that the future of work will involve humans collaborating with AI to enhance productivity.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Sequoia CEO coach: Why it\u2019s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
+    "subtitle": "",
+    "date": "2026-02-15",
+    "tags": [
+      "leadership",
+      "entrepreneurship",
+      "business strategy"
+    ],
+    "source_filename": "knowledge_base/brian-halligan.md",
+    "keywords": [
+      "CEO coaching",
+      "scaling companies",
+      "founder challenges",
+      "team dynamics",
+      "decision-making",
+      "startup culture",
+      "leadership traits"
+    ],
+    "summary": "In this episode, Brian Halligan, co-founder of HubSpot and now CEO coach at Sequoia, discusses the evolving challenges faced by CEOs today. He emphasizes that while starting a company has become easier, scaling it into a successful organization has become increasingly difficult due to heightened competition and the need for rapid decision-making. Halligan shares insights on the traits of successful CEOs, the importance of team dynamics, and the necessity of learning from crises to foster growth.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Why we\u2019re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex\u2013OpenAI, Meta, Apple)",
+    "subtitle": "",
+    "date": "2026-05-17",
+    "tags": [
+      "technology",
+      "innovation",
+      "manufacturing",
+      "AI/ML"
+    ],
+    "source_filename": "knowledge_base/caitlin-kalinowski.md",
+    "keywords": [
+      "AI hardware",
+      "robotics",
+      "manufacturing",
+      "reindustrialization",
+      "humanoid robots",
+      "supply chain",
+      "team dynamics",
+      "national security"
+    ],
+    "summary": "Caitlin Kalinowski discusses the emerging AI hardware boom, emphasizing the shift from software to physical applications such as robotics and manufacturing. She highlights the need for reindustrialization to ensure national security and independence in technology production. Kalinowski also reflects on her experiences in the tech industry, sharing insights on team dynamics, the importance of clear goals in hardware development, and the future of humanoid robots versus specialized machines.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "How Anthropic\u2019s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
+    "subtitle": "",
+    "date": "2026-04-23",
+    "tags": [
+      "product development",
+      "AI/ML",
+      "team dynamics"
+    ],
+    "source_filename": "knowledge_base/cat-wu.md",
+    "keywords": [
+      "product management",
+      "AI innovation",
+      "rapid shipping",
+      "product taste",
+      "collaboration",
+      "Claude Code",
+      "Anthropic"
+    ],
+    "summary": "In this episode, Cat Wu, Head of Product at Anthropic, discusses the rapid pace of innovation within the company and the evolving role of product managers (PMs) in the AI landscape. Wu emphasizes the importance of removing barriers to shipping products quickly and highlights the need for PMs to develop a strong product taste as coding becomes more accessible. The conversation also touches on the significance of collaboration across teams and the necessity for PMs to adapt to the fast-changing capabilities of AI models.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+    "subtitle": "",
+    "date": "2025-10-23",
+    "tags": [
+      "AI/ML",
+      "product development",
+      "technology trends",
+      "career advice"
+    ],
+    "source_filename": "knowledge_base/chip-huyen.md",
+    "keywords": [
+      "AI products",
+      "user feedback",
+      "pre-training",
+      "post-training",
+      "data preparation",
+      "AI engineering",
+      "organizational structure",
+      "productivity"
+    ],
+    "summary": "In this episode, Chip Huyen shares her insights on building successful AI products, emphasizing the importance of user feedback and practical application over merely keeping up with the latest AI trends. She discusses the challenges companies face in leveraging AI effectively, the distinction between pre-training and post-training models, and the significance of data preparation in AI applications. Huyen also highlights the evolving role of AI engineers and the future of AI in organizational structures, advocating for a balanced approach to innovation and productivity.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
+    "subtitle": "",
+    "date": "2026-03-29",
+    "tags": [
+      "AI/ML",
+      "productivity",
+      "personal development",
+      "technology"
+    ],
+    "source_filename": "knowledge_base/claire-vo-openclaw.md",
+    "keywords": [
+      "OpenClaw",
+      "AI tools",
+      "productivity",
+      "family management",
+      "automation",
+      "personal assistant",
+      "agent experience"
+    ],
+    "summary": "In this episode, Claire Vo shares her transformative journey with OpenClaw, transitioning from a skeptic to a passionate advocate for the AI tool. She discusses the practical applications of OpenClaw in her personal and professional life, highlighting how it has significantly improved her productivity and family management. Claire emphasizes the importance of creating multiple specialized agents to handle different tasks effectively, ultimately leading to a more organized and efficient life.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
+    "subtitle": "",
+    "date": "2026-05-24",
+    "tags": [
+      "AI/ML",
+      "career advice",
+      "product development",
+      "technology trends"
+    ],
+    "source_filename": "knowledge_base/dan-shipper-2.md",
+    "keywords": [
+      "AI job market",
+      "automation",
+      "product management",
+      "full-stack design",
+      "Claude Code",
+      "Codex",
+      "SaaS tools",
+      "future of work"
+    ],
+    "summary": "In this episode, Dan Shipper discusses the evolving landscape of work in the age of AI, emphasizing that the anticipated job apocalypse is unlikely. Instead, he predicts a future where automation enhances human roles, particularly for product managers and full-stack designers, who will thrive by leveraging AI tools. Shipper highlights the importance of creativity and adaptability, suggesting that as AI makes traditional skills cheaper, the ability to innovate and apply human insight will become increasingly valuable.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+    "subtitle": "",
+    "date": "2025-10-26",
+    "tags": [
+      "AI/ML",
+      "technology",
+      "productivity",
+      "organizational change"
+    ],
+    "source_filename": "knowledge_base/dhanji-r-prasanna.md",
+    "keywords": [
+      "AI productivity",
+      "Goose",
+      "Block",
+      "engineering culture",
+      "organizational structure",
+      "AI tools",
+      "software development"
+    ],
+    "summary": "In this episode, Dhanji R. Prasanna, CTO of Block, discusses the company's journey towards becoming an AI-native enterprise. He highlights the productivity gains achieved through their internal AI agent, Goose, which has reportedly saved employees significant work hours. Dhanji also emphasizes the importance of organizational structure and culture in leveraging AI effectively, as well as the surprising impact of non-technical employees embracing these tools.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "A child psychologist\u2019s guide to working with difficult adults | Dr. Becky Kennedy",
+    "subtitle": "",
+    "date": "2026-02-01",
+    "tags": [
+      "parenting",
+      "leadership",
+      "personal development"
+    ],
+    "source_filename": "knowledge_base/dr-becky-kennedy.md",
+    "keywords": [
+      "resilience",
+      "parenting",
+      "leadership",
+      "boundaries",
+      "communication",
+      "emotional needs",
+      "workplace dynamics",
+      "self-improvement"
+    ],
+    "summary": "In this episode, Dr. Becky Kennedy, a child psychologist and author, discusses how principles of parenting can be applied to leadership and workplace dynamics. She emphasizes the importance of resilience over short-term happiness, the necessity of setting boundaries, and the value of understanding that all humans, regardless of age, have similar emotional needs. Dr. Kennedy provides practical advice for fostering better communication and connection in both parenting and professional settings.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+    "subtitle": "",
+    "date": "2025-11-16",
+    "tags": [
+      "artificial intelligence",
+      "technology innovation",
+      "career development",
+      "human-centered design"
+    ],
+    "source_filename": "knowledge_base/dr-fei-fei-li.md",
+    "keywords": [
+      "Fei-Fei Li",
+      "AI revolution",
+      "ImageNet",
+      "human-centered AI",
+      "Marble",
+      "world modeling",
+      "3D environments",
+      "technology impact"
+    ],
+    "summary": "In this episode, Dr. Fei-Fei Li, often referred to as the 'godmother of AI,' discusses her pivotal role in the AI revolution, particularly through the creation of ImageNet. She emphasizes the importance of human-centered AI and the responsibility of society in shaping technology's impact on jobs and communities. Dr. Li also introduces her latest venture, Marble, a groundbreaking world modeling platform that enables users to create and navigate immersive 3D environments, highlighting its potential applications in various fields, including virtual production and therapy.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
+    "subtitle": "",
+    "date": "2025-12-07",
+    "tags": [
+      "AI/ML",
+      "entrepreneurship",
+      "data science",
+      "technology ethics"
+    ],
+    "source_filename": "knowledge_base/edwin-chen.md",
+    "keywords": [
+      "Surge AI",
+      "Edwin Chen",
+      "AI data quality",
+      "venture capital",
+      "AGI",
+      "AI engagement",
+      "data labeling",
+      "model training"
+    ],
+    "summary": "In this conversation, Edwin Chen, founder and CEO of Surge AI, discusses the innovative approach his company has taken to build a successful AI data company without relying on venture capital. He emphasizes the importance of high-quality data and the need for AI models to be optimized for meaningful objectives rather than superficial metrics. Chen expresses concern about the current trajectory of AI development, arguing that many labs are prioritizing engagement over genuine advancements that could benefit humanity.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Elena Verna 4.0",
+    "subtitle": "",
+    "date": "2025-12-18",
+    "tags": [
+      "growth",
+      "AI/ML",
+      "product development",
+      "marketing"
+    ],
+    "source_filename": "knowledge_base/elena-verna-40.md",
+    "keywords": [
+      "Elena Verna",
+      "Lovable",
+      "growth strategy",
+      "AI companies",
+      "minimum lovable product",
+      "community engagement",
+      "word of mouth",
+      "vibe coding"
+    ],
+    "summary": "In this episode, Elena Verna, head of growth at Lovable, discusses the rapid growth of her company, which achieved over $200 million in ARR within its first year. She emphasizes the need for innovation over optimization in growth strategies, particularly in the fast-evolving AI landscape. Verna shares insights on building in public, leveraging community engagement, and the importance of creating a 'minimum lovable product' to capture user interest and drive word-of-mouth marketing.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "How to build a company that withstands any era | Eric Ries, Lean Startup author",
+    "subtitle": "",
+    "date": "2026-05-10",
+    "tags": [
+      "leadership",
+      "business strategy",
+      "organizational behavior",
+      "entrepreneurship"
+    ],
+    "source_filename": "knowledge_base/eric-ries-2.md",
+    "keywords": [
+      "Eric Ries",
+      "Incorruptible",
+      "company governance",
+      "founder control",
+      "AI safety",
+      "mission-driven companies",
+      "financial gravity",
+      "organizational integrity"
+    ],
+    "summary": "In this episode, Eric Ries discusses his latest book, 'Incorruptible,' which explores why successful companies often lose their way and how founders can protect their organizations from internal decay. He emphasizes the importance of principled decision-making and the need for governance structures that prioritize long-term missions over short-term profits. Through examples from various companies, Ries illustrates how maintaining a strong ethical foundation can lead to sustainable success.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
+    "subtitle": "",
+    "date": "2026-04-26",
+    "tags": [
+      "technology",
+      "social media",
+      "innovation",
+      "business strategy"
+    ],
+    "source_filename": "knowledge_base/evan-spiegel.md",
+    "keywords": [
+      "Evan Spiegel",
+      "Snapchat",
+      "distribution",
+      "social media",
+      "innovation",
+      "AI",
+      "augmented reality",
+      "consumer technology"
+    ],
+    "summary": "Evan Spiegel, CEO of Snap, emphasizes the critical importance of distribution in building durable social consumer products, arguing that many tech leaders overlook this aspect in favor of product development. He reflects on Snapchat's unique approach to connecting users with their closest friends rather than focusing solely on large networks. As the company prepares for a pivotal year, Spiegel discusses the challenges of maintaining innovation amidst competition and the societal implications of emerging technologies like AI.",
+    "model": "gpt-4o-mini"
+  },
+    {
+    "title": "A guide to AI prototyping for product managers",
+    "subtitle": "How to turn your idea into a working prototype in minutes",
+    "date": "2025-01-07",
+    "tags": [
+      "product management",
+      "AI/ML",
+      "prototyping",
+      "technology"
+    ],
+    "source_filename": "knowledge_base/a-guide-to-ai-prototyping-for-product-managers.md",
+    "keywords": [
+      "AI prototyping",
+      "product management",
+      "development tools",
+      "cloud environments",
+      "chatbots",
+      "local developer assistants",
+      "Figma",
+      "prototyping techniques"
+    ],
+    "summary": "This guide provides product managers with essential insights into utilizing AI tools for rapid prototyping. It covers various AI development tools, including chatbots, cloud environments, and local developer assistants, detailing their strengths and best use cases. With practical examples and prompts, readers will learn how to transform designs and ideas into functional prototypes quickly, enhancing their product development process.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Aishwarya Naresh Reganti + Kiriti Badam",
+    "subtitle": "",
+    "date": "2026-01-11",
+    "tags": [
+      "AI/ML",
+      "product development",
+      "technology trends"
+    ],
+    "source_filename": "knowledge_base/aishwarya-naresh-reganti--kiriti-badam.md",
+    "keywords": [
+      "AI product development",
+      "non-determinism",
+      "agency-control trade-off",
+      "iterative design",
+      "user behavior",
+      "collaboration",
+      "AI lifecycle"
+    ],
+    "summary": "In this episode, Aishwarya Naresh Reganti and Kiriti Badam share their insights on building successful AI products, emphasizing the unique challenges posed by non-determinism and the agency-control trade-off inherent in AI systems. They advocate for a step-by-step approach to product development, recommending that teams start small and gradually increase the autonomy of their AI agents while maintaining close collaboration among team members. The discussion also highlights the importance of understanding user behavior and iterating on product design to ensure alignment with real-world needs.",
+    "model": "gpt-4o-mini"
+  },
+  {
     "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
     "subtitle": "",
     "date": "2025-10-05",
@@ -55,19 +754,645 @@
       "growth",
       "product management",
       "AI/ML",
-      "consumer behavior"
+      "user experience"
     ],
-    "source_filename": "knowledge_base/test/albert-cheng.md",
+    "source_filename": "knowledge_base/albert-cheng.md",
     "keywords": [
       "user retention",
-      "growth strategy",
-      "experimentation",
+      "growth strategies",
       "AI in product development",
       "consumer subscription",
-      "explore and exploit framework",
-      "monetization strategies"
+      "experimentation",
+      "Duolingo",
+      "Grammarly",
+      "Chess.com"
     ],
-    "summary": "In this episode, Albert Cheng, a leading growth strategist with experience at Duolingo, Grammarly, and Chess.com, shares insights on finding hidden growth opportunities in consumer subscription products. He emphasizes the importance of user retention, experimentation, and the balance between exploration and exploitation in growth strategies. Cheng discusses how leveraging AI and understanding user psychology can significantly enhance product engagement and retention.",
+    "summary": "In this episode, Albert Cheng, a growth expert with experience at Duolingo, Grammarly, and Chess.com, shares insights on finding hidden growth opportunities in consumer subscription products. He emphasizes the importance of user retention, the balance between exploration and exploitation in growth strategies, and leveraging AI to enhance product experiences. Cheng also discusses the significance of building a strong company culture that encourages experimentation and learning from failures.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The power user\u2019s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
+    "subtitle": "",
+    "date": "2026-01-12",
+    "tags": [
+      "AI/ML",
+      "product development",
+      "software engineering",
+      "technology trends"
+    ],
+    "source_filename": "knowledge_base/alexander-embiricos.md",
+    "keywords": [
+      "Codex",
+      "OpenAI",
+      "AI productivity",
+      "software engineering",
+      "coding assistant",
+      "proactive AI",
+      "Sora app",
+      "AGI"
+    ],
+    "summary": "In this episode, Alexander Embiricos, product lead for OpenAI's Codex, discusses the evolution and capabilities of Codex as a coding assistant. He emphasizes the importance of making Codex proactive and integrated into the software development lifecycle, allowing it to assist with tasks beyond just writing code. Embiricos also shares insights on the rapid growth of Codex, its impact on software engineering, and the future of AI in enhancing productivity across various roles.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Anthropic\u2019s $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare",
+    "subtitle": "",
+    "date": "2026-04-05",
+    "tags": [
+      "AI/ML",
+      "product growth",
+      "leadership",
+      "personal development"
+    ],
+    "source_filename": "knowledge_base/amol-avasare.md",
+    "keywords": [
+      "Anthropic",
+      "AI growth",
+      "Claude",
+      "activation",
+      "brain injury",
+      "product management",
+      "company culture",
+      "safety"
+    ],
+    "summary": "In this episode, Amol Avasare, head of growth at Anthropic, discusses the company's unprecedented growth, scaling from $1 billion to $19 billion in annual recurring revenue in just 14 months. He shares insights into the challenges of leading growth in a rapidly evolving AI landscape, the importance of activation in AI products, and the unique culture at Anthropic that prioritizes safety and mission-driven work. Amol also reflects on his personal journey, including overcoming a traumatic brain injury, which has shaped his approach to work and life.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "An AI glossary",
+    "subtitle": "The most common AI terms explained, simply",
+    "date": "2025-06-24",
+    "tags": [
+      "artificial intelligence",
+      "technology",
+      "education",
+      "glossary"
+    ],
+    "source_filename": "knowledge_base/an-ai-glossary.md",
+    "keywords": [
+      "AI models",
+      "large language models",
+      "training methods",
+      "supervised learning",
+      "unsupervised learning",
+      "reinforcement learning",
+      "prompt engineering",
+      "generative AI"
+    ],
+    "summary": "This glossary provides simplified definitions for over 20 common AI terms, making complex concepts accessible for those unfamiliar with the jargon. It covers essential topics such as AI models, large language models, training methods, and various learning techniques, ensuring readers can better understand discussions around artificial intelligence. The glossary will be updated as new terms and concepts emerge in the rapidly evolving field of AI.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "A rational conversation on where AI is actually going | Benedict Evans",
+    "subtitle": "",
+    "date": "2026-05-31",
+    "tags": [
+      "technology",
+      "future of work",
+      "AI/ML",
+      "career advice"
+    ],
+    "source_filename": "knowledge_base/benedict-evans.md",
+    "keywords": [
+      "AI transformation",
+      "job automation",
+      "Benedict Evans",
+      "technology adoption",
+      "future of work",
+      "professional services",
+      "economic impact"
+    ],
+    "summary": "In this conversation, Benedict Evans argues that AI is a transformative technology comparable to the internet and mobile phones, but emphasizes that it will not lead to a job apocalypse. He discusses the cyclical nature of technological advancements, where automation may eliminate certain jobs but also creates new opportunities that we cannot yet foresee. Evans encourages individuals to engage with AI rather than resist it, as understanding and adapting to these changes will be crucial for future success.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Beyond vibe checks: A PM\u2019s complete guide to evals",
+    "subtitle": "How to master the emerging skill that can make or break an AI product",
+    "date": "2025-04-08",
+    "tags": [
+      "AI/ML",
+      "product management",
+      "software development"
+    ],
+    "source_filename": "knowledge_base/beyond-vibe-checks-a-pms-complete-guide-to-evals.md",
+    "keywords": [
+      "AI product management",
+      "evaluations",
+      "LLM-based evals",
+      "human feedback",
+      "product development",
+      "AI systems",
+      "performance metrics"
+    ],
+    "summary": "As AI products become increasingly complex, mastering evaluations (evals) is essential for product managers. Evals provide a systematic way to measure the effectiveness of AI systems, ensuring they meet user expectations and deliver value. This guide outlines various approaches to writing effective evals, emphasizing their importance in the development and continuous improvement of AI products.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Essential reading for product builders\u2014part 1",
+    "subtitle": "7 timeless essays you likely haven\u2019t read but should",
+    "date": "2025-07-15",
+    "tags": [
+      "product management",
+      "career development",
+      "creative thinking"
+    ],
+    "source_filename": "knowledge_base/essential-reading-for-product-builders-part-1.md",
+    "keywords": [
+      "product development",
+      "timeless essays",
+      "leadership",
+      "agency",
+      "creative work",
+      "learning strategies",
+      "product design",
+      "market dynamics"
+    ],
+    "summary": "This newsletter introduces seven impactful essays that are essential reading for product builders, emphasizing timeless insights that can enhance product development and leadership skills. The author reflects on the challenge of sifting through abundant content to find genuinely valuable resources, advocating for a balanced approach to learning that includes both contemporary and classic works. Readers are encouraged to contribute their own recommendations to expand this foundational library for product leaders.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Everyone should be using Claude Code more",
+    "subtitle": "How to get started, and 50 ways non-technical people are using Claude Code in their work and life",
+    "date": "2025-10-14",
+    "tags": [
+      "AI tools",
+      "productivity",
+      "technology",
+      "career development"
+    ],
+    "source_filename": "knowledge_base/everyone-should-be-using-claude-code-more.md",
+    "keywords": [
+      "Claude Code",
+      "AI tool",
+      "productivity",
+      "file organization",
+      "image enhancement",
+      "job descriptions",
+      "social media research",
+      "non-technical users"
+    ],
+    "summary": "Claude Code is an underutilized AI tool that empowers non-technical users to enhance their productivity by performing a variety of tasks directly on their computers. This article highlights 50 creative ways individuals have leveraged Claude Code, from organizing files and improving image quality to generating job descriptions and conducting social media research. The versatility and speed of Claude Code make it a valuable asset for anyone looking to streamline their workflows and tackle everyday challenges more efficiently.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "How Duolingo reignited user growth",
+    "subtitle": "The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model",
+    "date": "2023-02-28",
+    "tags": [
+      "product growth",
+      "user engagement",
+      "growth strategies"
+    ],
+    "source_filename": "knowledge_base/how-duolingo-reignited-user-growth.md",
+    "keywords": [
+      "Duolingo",
+      "user growth",
+      "gamification",
+      "retention strategies",
+      "leaderboards",
+      "push notifications",
+      "streak feature",
+      "data analysis"
+    ],
+    "summary": "Duolingo experienced a remarkable 4.5x growth in daily active users through strategic product changes and a focus on retention. Key initiatives included the introduction of leaderboards, enhancements to push notifications, and optimizations of the streak feature, all of which significantly improved user engagement. The company's success illustrates the importance of adapting features thoughtfully and leveraging data-driven insights to inform growth strategies.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "How to build your PM second brain with ChatGPT",
+    "subtitle": "Use AI to amplify your craft, not replace it",
+    "date": "2025-12-16",
+    "tags": [
+      "AI/ML",
+      "product management",
+      "productivity",
+      "career development"
+    ],
+    "source_filename": "knowledge_base/how-to-build-your-pm-second-brain-with-chatgpt.md",
+    "keywords": [
+      "AI in product management",
+      "ChatGPT",
+      "second brain",
+      "workflow optimization",
+      "context management",
+      "product development",
+      "decision-making",
+      "productivity"
+    ],
+    "summary": "This article explores how product managers can leverage AI, specifically ChatGPT, to create a 'second brain' that helps manage the overwhelming amount of context and information required for effective product development. By feeding AI with relevant data and insights, PMs can enhance their decision-making processes, streamline workflows, and focus on creative problem-solving rather than getting bogged down by mental overload. The author emphasizes that AI serves as an amplifier of human capabilities rather than a replacement, allowing for clearer reasoning and improved productivity.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Product manager is an unfair role. So work unfairly.",
+    "subtitle": "How to thrive in \u201cthe great flattening\u201d by redefining work norms",
+    "date": "2024-11-12",
+    "tags": [
+      "product management",
+      "productivity",
+      "career development"
+    ],
+    "source_filename": "knowledge_base/product-manager-is-an-unfair-role-so-work-unfairly.md",
+    "keywords": [
+      "product management",
+      "productivity strategies",
+      "AI tools",
+      "team empowerment",
+      "work-life balance",
+      "great flattening",
+      "individual contributor"
+    ],
+    "summary": "The role of product manager is increasingly seen as unfair due to rising expectations and the pressure to manage multiple responsibilities without sufficient authority. However, successful PMs are redefining their work norms by adopting unique productivity strategies that allow them to thrive in this challenging environment. By leveraging tools, setting boundaries, and empowering their teams, they can achieve greater impact while maintaining their well-being.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "State of the product job market in 2025",
+    "subtitle": "There\u2019s a lot to be optimistic about",
+    "date": "2025-05-13",
+    "tags": [
+      "job market",
+      "technology",
+      "career trends"
+    ],
+    "source_filename": "knowledge_base/state-of-the-product-job-market-in-2025.md",
+    "keywords": [
+      "product managers",
+      "engineering roles",
+      "AI PM roles",
+      "layoffs",
+      "capital investment",
+      "Bay Area job market",
+      "remote work",
+      "job opportunities"
+    ],
+    "summary": "The product job market is showing positive signs as open roles for product managers and engineers are on the rise, with a notable increase in AI-related positions. Despite concerns about layoffs, the rate is slowing, and capital investment in tech is growing significantly. However, remote work opportunities are declining, indicating a shift in workplace dynamics, while the Bay Area remains a dominant hub for job openings.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "What people are vibe coding (and actually using)",
+    "subtitle": "50+ useful/fun/clever examples of what non-technical people are building\u2014to inspire your own vibe-coding journey",
+    "date": "2025-07-08",
+    "tags": [
+      "technology",
+      "innovation",
+      "community",
+      "productivity"
+    ],
+    "source_filename": "knowledge_base/what-people-are-vibe-coding-and-actually-using.md",
+    "keywords": [
+      "vibe coding",
+      "AI tools",
+      "personalized applications",
+      "productivity tools",
+      "community projects",
+      "non-technical creators",
+      "innovation"
+    ],
+    "summary": "The article explores the emerging trend of vibe coding, where non-technical individuals create useful tools and applications using AI technologies. It highlights over 50 innovative examples shared by readers, showcasing a diverse range of projects from personalized meal planners to productivity tools. The responses reveal a growing community of creators who are solving specific problems and often sharing their solutions with a wider audience.",
+    "model": "gpt-4o-mini"
+  },
+    {
+    "title": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
+    "subtitle": "",
+    "date": "2026-01-25",
+    "tags": [
+      "product management",
+      "business strategy",
+      "entrepreneurship"
+    ],
+    "source_filename": "knowledge_base/jason-cohen.md",
+    "keywords": [
+      "product growth",
+      "customer churn",
+      "pricing strategy",
+      "marketing channels",
+      "value creation",
+      "business strategy",
+      "Jason Cohen"
+    ],
+    "summary": "In this episode, Jason Cohen shares a framework for diagnosing and addressing stalled product growth. He emphasizes the importance of understanding customer churn, evaluating pricing strategies, and recognizing when marketing channels may be saturated. Ultimately, he challenges listeners to consider whether growth is essential for their business or if a focus on customer value and fulfillment might be more appropriate.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
+    "subtitle": "",
+    "date": "2026-02-08",
+    "tags": [
+      "AI/ML",
+      "career advice",
+      "product development",
+      "design"
+    ],
+    "source_filename": "knowledge_base/lazar-jovanovic.md",
+    "keywords": [
+      "vibe coding",
+      "AI tools",
+      "product development",
+      "design sensibility",
+      "clarity in communication",
+      "emotional intelligence",
+      "career path",
+      "Lazar Jovanovic"
+    ],
+    "summary": "Lazar Jovanovic, the first official vibe coding engineer at Lovable, discusses the emergence of vibe coding as a new career path in the AI era. He emphasizes the importance of clarity in communication with AI tools, suggesting that success in this domain relies on good judgment and design sensibility rather than traditional coding skills. Jovanovic shares insights on how to effectively use AI tools for building products and highlights the need for emotional intelligence and creativity in a rapidly evolving tech landscape.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "First interview with Scale AI\u2019s CEO: $14B Meta deal, what\u2019s working in enterprise AI, and what frontier labs are building next | Jason Droege",
+    "subtitle": "",
+    "date": "2025-10-09",
+    "tags": [
+      "AI/ML",
+      "entrepreneurship",
+      "business strategy",
+      "data science"
+    ],
+    "source_filename": "knowledge_base/jason-droege.md",
+    "keywords": [
+      "Jason Droege",
+      "Scale AI",
+      "AI models",
+      "data labeling",
+      "expert-driven processes",
+      "entrepreneurship",
+      "business strategy",
+      "market dynamics"
+    ],
+    "summary": "In this insightful interview, Jason Droege, CEO of Scale AI, discusses the evolution of AI and its practical applications in enterprise settings. He emphasizes the shift from basic data labeling to expert-driven processes that enhance AI models, highlighting the importance of human input in refining AI capabilities. Droege also shares valuable lessons from his entrepreneurial journey, including the significance of understanding market dynamics and the necessity of building resilient teams.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "We replaced our sales team with 20 AI agents\u2014here\u2019s what happened | Jason Lemkin (SaaStr)",
+    "subtitle": "",
+    "date": "2026-01-01",
+    "tags": [
+      "sales",
+      "SaaS",
+      "leadership",
+      "product management"
+    ],
+    "source_filename": "knowledge_base/jason-m-lemkin.md",
+    "keywords": [
+      "B2B sales",
+      "SaaS",
+      "sales team building",
+      "customer success",
+      "product management",
+      "sales strategies",
+      "founder advice"
+    ],
+    "summary": "In this episode, Jason Lemkin discusses the critical role of sales in B2B SaaS, emphasizing that founders must embrace sales to succeed. He shares practical advice on building effective sales teams, including when to hire salespeople, the importance of understanding customer needs, and the relationship between product and sales. Lemkin also highlights the significance of being honest about the sales process and the necessity of kindness in leadership.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+    "subtitle": "",
+    "date": "2025-11-09",
+    "tags": [
+      "sales strategy",
+      "startup growth",
+      "customer engagement"
+    ],
+    "source_filename": "knowledge_base/jen-abel.md",
+    "keywords": [
+      "founder-led sales",
+      "enterprise sales",
+      "customer discovery",
+      "sales process",
+      "procurement",
+      "product market fit",
+      "sales tactics"
+    ],
+    "summary": "In this episode, Jen Abel shares her expertise on founder-led sales, emphasizing the importance of early-stage founders engaging directly with potential customers to learn and refine their product offerings. She outlines a tactical sales process that includes identifying relevant leads, crafting compelling outreach messages, and navigating the complexities of procurement. By focusing on building relationships and understanding market needs, founders can effectively transition from product development to successful sales.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Building the most AI-pilled engineering team in the world | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
+    "subtitle": "",
+    "date": "2026-06-21",
+    "tags": [
+      "AI/ML",
+      "leadership",
+      "engineering",
+      "team dynamics"
+    ],
+    "source_filename": "knowledge_base/fiona-fung.md",
+    "keywords": [
+      "AI in software engineering",
+      "team culture",
+      "high agency",
+      "productivity",
+      "management practices",
+      "Claude Code",
+      "Cowork"
+    ],
+    "summary": "In this episode, Fiona Fung, manager of the Claude Code and Cowork teams at Anthropic, discusses the transformative impact of AI on software engineering. She emphasizes the shift from coding as a bottleneck to a focus on ambition and accountability, highlighting the importance of high agency among team members. Fiona also shares insights on maintaining team culture amidst rapid growth and the necessity of adapting management practices to ensure effective collaboration and productivity in an AI-driven landscape.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+    "subtitle": "",
+    "date": "2025-09-25",
+    "tags": [
+      "AI/ML",
+      "product development",
+      "data analysis"
+    ],
+    "source_filename": "knowledge_base/hamel-husain--shreya-shankar.md",
+    "keywords": [
+      "AI product development",
+      "evals",
+      "error analysis",
+      "product management",
+      "data-driven decision making",
+      "LLM evaluation",
+      "user experience"
+    ],
+    "summary": "In this episode, Lenny Rachitsky discusses the importance of evaluation (eval) skills for AI product builders with experts Hamel Husain and Shreya Shankar. They explain how effective evals can significantly improve AI applications by systematically measuring performance and iterating on feedback. The conversation also addresses common misconceptions about evals, the integration of AI in the eval process, and the need for product managers to engage deeply with their data to enhance product quality.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Marc Andreessen: The real AI boom hasn\u2019t even started yet",
+    "subtitle": "",
+    "date": "2026-01-29",
+    "tags": [
+      "technology",
+      "career advice",
+      "AI/ML",
+      "economic trends"
+    ],
+    "source_filename": "knowledge_base/marc-andreessen.md",
+    "keywords": [
+      "AI transformation",
+      "job roles",
+      "productivity",
+      "Marc Andreessen",
+      "future of work",
+      "technology shift",
+      "learning",
+      "economic growth"
+    ],
+    "summary": "In this conversation, Marc Andreessen discusses the transformative potential of AI, emphasizing that we are at the beginning of a significant technological shift. He argues that AI will not only enhance productivity but also redefine job roles and industries, leading to a future where human workers are at a premium. Andreessen also highlights the importance of adaptability and continuous learning in a rapidly changing job market, encouraging individuals to harness AI as a tool for personal and professional growth.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
+    "subtitle": "",
+    "date": "2026-04-12",
+    "tags": [
+      "AI/ML",
+      "career advice",
+      "leadership",
+      "startup culture"
+    ],
+    "source_filename": "knowledge_base/keith-rabois.md",
+    "keywords": [
+      "AI impact on careers",
+      "talent assessment",
+      "team dynamics",
+      "hiring practices",
+      "organizational speed",
+      "intellectual curiosity",
+      "leadership"
+    ],
+    "summary": "In this conversation, Keith Rabois discusses the evolving landscape of work in the AI era, emphasizing the importance of talent assessment and team dynamics over traditional roles like product management. He argues that successful companies thrive on speed, critical talent density, and the ability to adapt quickly to changing market conditions. Rabois also shares insights on hiring practices, the significance of intellectual curiosity, and the need for leaders to push their teams to avoid complacency.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The hidden pattern behind successful products | Mark Pincus (Founder of Zynga)",
+    "subtitle": "",
+    "date": "2026-06-14",
+    "tags": [
+      "product strategy",
+      "entrepreneurship",
+      "consumer behavior",
+      "innovation"
+    ],
+    "source_filename": "knowledge_base/mark-pincus.md",
+    "keywords": [
+      "Mark Pincus",
+      "Proven Better New",
+      "product development",
+      "consumer psychology",
+      "entrepreneurship",
+      "Zynga",
+      "product management",
+      "innovation"
+    ],
+    "summary": "In this conversation, Mark Pincus shares his insights on building successful products, emphasizing the importance of understanding consumer needs and the value of iterating on proven concepts. He introduces the 'Proven, Better, New' framework, which encourages entrepreneurs to start with what works, make small improvements, and then innovate. Pincus also discusses the significance of humility in ambition and the necessity of being close to the product details to ensure success.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "The art of influence: The single most important skill that AI can\u2019t replace | Jessica Fain (Webflow, ex-Slack)",
+    "subtitle": "",
+    "date": "2026-03-22",
+    "tags": [
+      "leadership",
+      "career development",
+      "product strategy"
+    ],
+    "source_filename": "knowledge_base/jessica-fain.md",
+    "keywords": [
+      "influence",
+      "executive engagement",
+      "product management",
+      "empathy",
+      "AI impact",
+      "stakeholder management",
+      "trust building"
+    ],
+    "summary": "In this episode, Jessica Fain shares her insights on the crucial skill of influence for product leaders, particularly when engaging with executives. She emphasizes the importance of understanding executives' perspectives, aligning pitches with their goals, and fostering trust through empathy and curiosity. Fain also discusses how the rise of AI is shifting the landscape of product management, making the ability to influence and communicate effectively more essential than ever.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Jenny Wen",
+    "subtitle": "",
+    "date": "2026-03-01",
+    "tags": [
+      "design",
+      "technology",
+      "career development",
+      "team management"
+    ],
+    "source_filename": "knowledge_base/jenny-wen.md",
+    "keywords": [
+      "design process",
+      "AI impact",
+      "collaboration",
+      "engineering",
+      "product development",
+      "team dynamics",
+      "hiring trends"
+    ],
+    "summary": "In this conversation, Jenny Wen discusses the evolving role of designers in the tech industry, particularly in relation to rapid advancements in engineering and AI. She emphasizes the shift from traditional design processes to a more collaborative and execution-focused approach, where designers must adapt quickly to keep pace with engineers. Jenny also highlights the importance of resilience and adaptability in designers, as well as the need for a balance between high standards and psychological safety within teams.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "Jeetu Patel",
+    "subtitle": "",
+    "date": "2026-02-26",
+    "tags": [
+      "leadership",
+      "technology",
+      "AI/ML",
+      "business strategy"
+    ],
+    "source_filename": "knowledge_base/jeetu-patel.md",
+    "keywords": [
+      "AI adoption",
+      "demographic challenges",
+      "Cisco transformation",
+      "team trust",
+      "communication",
+      "persistence",
+      "innovation"
+    ],
+    "summary": "In this episode, Jeetu Patel discusses the critical role of AI in shaping the future of humanity, emphasizing that successful AI adoption is essential for addressing demographic challenges posed by declining birth rates. He shares insights on transforming Cisco into an AI-first company, highlighting the importance of establishing trust within teams and the necessity of clear communication. Patel also reflects on the value of persistence over intellect and the importance of choosing hard problems to attract the best talent.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "\u201cDumbest idea I\u2019ve heard\u201d to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+    "subtitle": "",
+    "date": "2025-11-13",
+    "tags": [
+      "startup growth",
+      "AI/ML",
+      "marketing",
+      "product development"
+    ],
+    "source_filename": "knowledge_base/grant-lee.md",
+    "keywords": [
+      "Gamma",
+      "AI-powered presentations",
+      "influencer marketing",
+      "product market fit",
+      "startup growth",
+      "team culture",
+      "pricing strategy"
+    ],
+    "summary": "In this episode, Grant Lee, CEO of Gamma, shares the journey of transforming a seemingly 'dumb' idea into a successful AI-powered presentation tool that achieved $100 million ARR in just over two years. He discusses the importance of influencer marketing, rapid prototyping, and maintaining a lean team focused on growth and product quality. Grant emphasizes the significance of building a strong company culture and investing in exceptional talent to drive long-term success.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)",
+    "subtitle": "",
+    "date": "2025-11-30",
+    "tags": [
+      "sales strategy",
+      "marketing",
+      "product development",
+      "business growth"
+    ],
+    "source_filename": "knowledge_base/jeanne-grosser.md",
+    "keywords": [
+      "go-to-market strategy",
+      "AI in sales",
+      "customer motivation",
+      "sales engineering",
+      "risk avoidance",
+      "product differentiation",
+      "sales organization",
+      "pricing strategy"
+    ],
+    "summary": "In this episode, Jeanne DeWitt Grosser discusses the evolving landscape of go-to-market (GTM) strategies, particularly in the context of AI and competitive differentiation. She emphasizes the importance of understanding customer motivations, focusing on risk avoidance rather than just problem-solving. Jeanne also highlights the emerging role of go-to-market engineers, who leverage technical skills to enhance sales processes, and shares insights on building effective sales organizations that collaborate closely with product and engineering teams.",
     "model": "gpt-4o-mini"
   }
 ]
