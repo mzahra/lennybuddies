@@ -80,7 +80,7 @@ Body content:
 def process_knowledge_base():
     results = []
     for folder in ["knowledge_base/primary/newsletters/", "knowledge_base/primary/podcasts/"]:
-    # for folder in ["knowledge_base/zahra/"]:
+    # for folder in ["knowledge_base/test/"]:
         for filepath in glob.glob(os.path.join(folder, "*.md")):
             metadata, body_text = load_document(filepath)
             result = process_document(metadata, body_text)
