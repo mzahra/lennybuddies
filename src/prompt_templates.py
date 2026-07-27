@@ -149,46 +149,48 @@ present in the source material above."""
 #       DUMMY_SOURCE_ARTICLES below with a real call to it.
 # ---------------------------------------------------------------------
 DUMMY_SOURCE_ARTICLES: List[Dict[str, Any]] = [
-    {
-        "title": "Essential reading for product builders—part 1",
-        "summary": (
-            "There's so much content flying at us these days that it's hard "
-            "to separate the 'this sounds so smart!' from the 'this is "
-            "genuinely correct, helpful, and timeless.' The essays below are "
-            "ones the author finds himself quoting and returning to most often."
-        ),
-        "source_filename": "newsletters/essential-reading-for-product-builders-part-1.md",
-        "type": "newsletter",
-        "tags": ["newsletters"],
-    },
-    {
-        "title": "Beyond vibe checks: a PM's complete guide to evals",
-        "summary": (
-            "Vibe-checking an LLM feature (eyeballing a few outputs and calling "
-            "it good) doesn't scale and breaks silently. This piece walks "
-            "through building real evaluation pipelines for AI product "
-            "features before shipping them."
-        ),
-        "source_filename": "newsletters/beyond-vibe-checks-a-pms-complete-guide-to-evals.md",
-        "type": "newsletter",
-        "tags": ["newsletters", "ai", "evals"],
-    },
-    {
-        "title": "How Duolingo reignited user growth",
-        "summary": (
-            "Duolingo's growth had plateaued. This piece breaks down the "
-            "specific product and marketing changes — including gamification "
-            "and content strategy shifts — that reignited user growth."
-        ),
-        "source_filename": "newsletters/how-duolingo-reignited-user-growth.md",
-        "type": "newsletter",
-        "tags": ["newsletters", "growth"],
-    },
+  {
+    "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "subtitle": "",
+    "date": "2025-10-05",
+    "tags": ["podcast"],
+    "source_filename": "knowledge_base/primary/test/albert-cheng.md",
+    "keywords": [
+      "user retention",
+      "growth opportunities",
+      "experimentation",
+      "explore-exploit framework",
+      "AI in product development",
+      "company culture",
+      "product management"
+    ],
+    "summary": "In this podcast episode, Albert Cheng, a growth expert with experience at Duolingo, Grammarly, and Chess.com, discusses the importance of user retention and the exploration-exploitation framework for identifying growth opportunities. He emphasizes the need for experimentation in product development, sharing insights on how to effectively connect users to the value of a product. Cheng also highlights the role of AI in enhancing growth strategies and the significance of building a strong company culture that fosters creativity and rapid iteration.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "An AI glossary",
+    "subtitle": "The most common AI terms explained, simply",
+    "date": "2025-06-24",
+    "tags": ["newsletter"],
+    "source_filename": "knowledge_base/primary/test/an-ai-glossary.md",
+    "keywords": [
+      "AI glossary",
+      "large language models",
+      "training methods",
+      "prompt engineering",
+      "reinforcement learning",
+      "transformer architecture",
+      "generative AI",
+      "synthetic data"
+    ],
+    "summary": "This newsletter provides simplified definitions for over 20 common AI terms, making complex concepts accessible for those unfamiliar with the jargon. It covers essential topics such as AI models, large language models (LLMs), training methods, and various learning techniques, along with practical applications like prompt engineering and retrieval-augmented generation. The glossary serves as a handy reference for anyone looking to better understand the rapidly evolving field of artificial intelligence.",
+    "model": "gpt-4o-mini"
+  }
 ]
 
 DUMMY_PAYLOAD: Dict[str, Any] = {
     "inputs": {
-        "topic": "shipping AI features without proper evaluation",
+        "topic": "AI",
         "word_count": "150-500",
         "language": "English",
         "tone": "Professional",
