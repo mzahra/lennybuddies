@@ -1,39 +1,73 @@
 [
   {
-    "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
-    "subtitle": "",
-    "date": "2025-10-05",
-    "tags": ["podcast"],
-    "source_filename": "knowledge_base/primary/test/albert-cheng.md",
-    "keywords": [
-      "user retention",
-      "growth opportunities",
-      "experimentation",
-      "explore-exploit framework",
-      "AI in product development",
-      "company culture",
-      "product management"
-    ],
-    "summary": "In this podcast episode, Albert Cheng, a growth expert with experience at Duolingo, Grammarly, and Chess.com, discusses the importance of user retention and the exploration-exploitation framework for identifying growth opportunities. He emphasizes the need for experimentation in product development, sharing insights on how to effectively connect users to the value of a product. Cheng also highlights the role of AI in enhancing growth strategies and the significance of building a strong company culture that fosters creativity and rapid iteration.",
-    "model": "gpt-4o-mini"
-  },
-  {
     "title": "An AI glossary",
     "subtitle": "The most common AI terms explained, simply",
     "date": "2025-06-24",
-    "tags": ["newsletter"],
-    "source_filename": "knowledge_base/primary/test/an-ai-glossary.md",
+    "tags": [
+      "artificial intelligence",
+      "technology",
+      "education",
+      "machine learning"
+    ],
+    "source_filename": "knowledge_base/test/an-ai-glossary.md",
     "keywords": [
-      "AI glossary",
+      "AI terminology",
       "large language models",
-      "training methods",
-      "prompt engineering",
-      "reinforcement learning",
       "transformer architecture",
+      "supervised learning",
+      "reinforcement learning",
+      "prompt engineering",
       "generative AI",
       "synthetic data"
     ],
-    "summary": "This newsletter provides simplified definitions for over 20 common AI terms, making complex concepts accessible for those unfamiliar with the jargon. It covers essential topics such as AI models, large language models (LLMs), training methods, and various learning techniques, along with practical applications like prompt engineering and retrieval-augmented generation. The glossary serves as a handy reference for anyone looking to better understand the rapidly evolving field of artificial intelligence.",
+    "summary": "This glossary provides simple definitions for over 20 common AI terms, making complex concepts accessible for those unfamiliar with the jargon. It covers essential topics such as AI models, large language models, and training methods, while also addressing advanced techniques like reinforcement learning from human feedback and prompt engineering. The glossary serves as a handy reference for anyone looking to better understand the rapidly evolving field of artificial intelligence.",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
+    "subtitle": "",
+    "date": "2025-12-28",
+    "tags": [
+      "leadership",
+      "product management",
+      "entrepreneurship",
+      "team dynamics"
+    ],
+    "source_filename": "knowledge_base/test/matt-macinnis.md",
+    "keywords": [
+      "leadership",
+      "extraordinary effort",
+      "under-staffing",
+      "feedback culture",
+      "team intensity",
+      "Rippling",
+      "product management",
+      "entrepreneurship"
+    ],
+    "summary": "In this episode, Matt MacInnis, Chief Product Officer at Rippling, shares his contrarian views on leadership and the necessity of extraordinary effort for achieving exceptional outcomes. He emphasizes the importance of under-staffing projects to avoid inefficiencies and politics, while advocating for a culture of intense feedback and escalation of issues. MacInnis also discusses the significance of maintaining high energy levels within teams to combat entropy and drive success in a competitive landscape.",
+    "model": "gpt-4o-mini"
+  },
+    {
+    "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+    "subtitle": "",
+    "date": "2025-10-05",
+    "tags": [
+      "growth",
+      "product management",
+      "AI/ML",
+      "consumer behavior"
+    ],
+    "source_filename": "knowledge_base/test/albert-cheng.md",
+    "keywords": [
+      "user retention",
+      "growth strategy",
+      "experimentation",
+      "AI in product development",
+      "consumer subscription",
+      "explore and exploit framework",
+      "monetization strategies"
+    ],
+    "summary": "In this episode, Albert Cheng, a leading growth strategist with experience at Duolingo, Grammarly, and Chess.com, shares insights on finding hidden growth opportunities in consumer subscription products. He emphasizes the importance of user retention, experimentation, and the balance between exploration and exploitation in growth strategies. Cheng discusses how leveraging AI and understanding user psychology can significantly enhance product engagement and retention.",
     "model": "gpt-4o-mini"
   }
 ]
