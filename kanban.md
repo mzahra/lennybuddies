@@ -8,8 +8,8 @@ Each card was assigned to a specific team member (initials shown on the card), a
 
 ### End of Day 1
 
-![Kanban board — end of Day 1](kanban/day1.png)
+![Kanban board — end of Day 1](Kanban/day1.png)
 
 ### End of Day 2
 
-![Kanban board — end of Day 2](kanban/day2.png)
+![Kanban board — end of Day 2](Kanban/day2.png)
