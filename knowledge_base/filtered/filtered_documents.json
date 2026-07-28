@@ -68,49 +68,51 @@
     "model": "gpt-4o-mini"
   },
   {
-    "title": "The secret to better AI prototypes: Why Tinder\u2019s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
+    "title": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
     "subtitle": "",
-    "date": "2025-09-29",
+    "date": "2025-12-07",
     "tags": [
-      "product management",
-      "leadership",
-      "coaching",
-      "AI/ML"
+      "AI/ML",
+      "entrepreneurship",
+      "data science",
+      "technology ethics"
     ],
-    "source_filename": "knowledge_base/ravi-mehta.md",
+    "source_filename": "knowledge_base/edwin-chen.md",
     "keywords": [
-      "product strategy",
-      "Ravi Mehta",
-      "coaching",
-      "AI",
-      "leadership",
-      "product management",
-      "customer insights",
-      "product execution"
+      "Surge AI",
+      "Edwin Chen",
+      "AI data quality",
+      "venture capital",
+      "AGI",
+      "AI engagement",
+      "data labeling",
+      "model training"
     ],
-    "summary": "In this episode, Ravi Mehta shares insights from his extensive experience in product management, emphasizing the importance of a structured approach to product strategy. He introduces the 'product strategy stack' framework, which helps clarify the relationship between a company's mission, strategy, product strategy, roadmap, and goals. Mehta also discusses the nuances of leadership, the role of AI in coaching, and the significance of understanding customer insights to drive product success.",
+    "summary": "In this conversation, Edwin Chen, founder and CEO of Surge AI, discusses the innovative approach his company has taken to build a successful AI data company without relying on venture capital. He emphasizes the importance of high-quality data and the need for AI models to be optimized for meaningful objectives rather than superficial metrics. Chen expresses concern about the current trajectory of AI development, arguing that many labs are prioritizing engagement over genuine advancements that could benefit humanity.",
     "model": "gpt-4o-mini"
   },
   {
-    "title": "How Anthropic\u2019s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
+    "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
     "subtitle": "",
-    "date": "2026-04-23",
+    "date": "2025-10-23",
     "tags": [
-      "product development",
       "AI/ML",
-      "team dynamics"
+      "product development",
+      "technology trends",
+      "career advice"
     ],
-    "source_filename": "knowledge_base/cat-wu.md",
+    "source_filename": "knowledge_base/chip-huyen.md",
     "keywords": [
-      "product management",
-      "AI innovation",
-      "rapid shipping",
-      "product taste",
-      "collaboration",
-      "Claude Code",
-      "Anthropic"
+      "AI products",
+      "user feedback",
+      "pre-training",
+      "post-training",
+      "data preparation",
+      "AI engineering",
+      "organizational structure",
+      "productivity"
     ],
-    "summary": "In this episode, Cat Wu, Head of Product at Anthropic, discusses the rapid pace of innovation within the company and the evolving role of product managers (PMs) in the AI landscape. Wu emphasizes the importance of removing barriers to shipping products quickly and highlights the need for PMs to develop a strong product taste as coding becomes more accessible. The conversation also touches on the significance of collaboration across teams and the necessity for PMs to adapt to the fast-changing capabilities of AI models.",
+    "summary": "In this episode, Chip Huyen shares her insights on building successful AI products, emphasizing the importance of user feedback and practical application over merely keeping up with the latest AI trends. She discusses the challenges companies face in leveraging AI effectively, the distinction between pre-training and post-training models, and the significance of data preparation in AI applications. Huyen also highlights the evolving role of AI engineers and the future of AI in organizational structures, advocating for a balanced approach to innovation and productivity.",
     "model": "gpt-4o-mini"
   }
 ]

@@ -1,6 +1,6 @@
-openai
-python-dotenv
-python-frontmatter
-scikit-learn
-gradio
-pytest
+openai>=2.45.0
+python-dotenv>=1.1.0
+python-frontmatter>=1.3.0
+scikit-learn>=1.7.2
+gradio>=6.0.0
+pytest>=8.4.2

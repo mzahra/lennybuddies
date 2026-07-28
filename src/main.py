@@ -106,9 +106,9 @@ call_to_action_options = [
 # Note: theme is passed to launch() (not the Blocks constructor) and
 # Textbox uses buttons=["copy"] instead of show_copy_button — both are
 # Gradio 6 API changes.
-with gr.Blocks(title="LinkedIn Post Generator") as demo:
+with gr.Blocks(title="LinkedIn Post Generator", theme=gr.themes.Soft()) as demo:
     gr.Markdown("# ✍️ LinkedIn Post Generator")
-    gr.Markdown("Create authentic, non‑generic posts inspired by Lenny’s Newsletter")
+    gr.Markdown("Create authentic, non‑generic posts inspired by Lenny’s Newsletter and Podcasts")
 
     with gr.Row():
         with gr.Column(scale=2):
@@ -184,4 +184,4 @@ with gr.Blocks(title="LinkedIn Post Generator") as demo:
     gr.Markdown("---\n💡 *Select a template to see its structure and example appear instantly – like a built‑in preview pop‑up.*")
 
 if __name__ == "__main__":
-    demo.launch(theme=gr.themes.Soft())
+    demo.launch(share=True)
